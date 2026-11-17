@@ -1,0 +1,42 @@
+{
+  "_extracted_from": "java -jar target/regional-archive-ingest-ack.jar --api-smoke → /messages?state=PENDING_CONFIRM",
+  "_scale": "ARCHIVE-20261020-A 待确认 2 条（ledgerId=1 与 ledgerId=2）",
+  "_file_role": "批次回执清单 / 待确认清单片段：完整 desensitization 已生效——localMrn 与 rejectionCode 已隐去；时间戳格式统一 yyyy-MM-dd HH:mm；controlId 全程可见但属于业务主键非可识别信息",
+  "_desensitization_note": "ledgerId / batchId / messageType / controlId / processingId 是业务主键与控制号，按 SPEC.md 第 1 条「权威源绑定」保留；localMrn（院内主键）在 confirm 之前显式空串；姓名与证件号不出现在该接口（仅 ledger export CSV 在脱敏后再出）",
+  "state": "PENDING_CONFIRM",
+  "batchId": "ARCHIVE-20261020-A",
+  "limit": 50,
+  "total": 2,
+  "items": [
+    {
+      "ledgerId": 2,
+      "batchId": "ARCHIVE-20261020-A",
+      "messageType": "ADT^A01^ADT_A01",
+      "controlId": "ARCHIVE-0002",
+      "processingId": "P",
+      "state": "PENDING_CONFIRM",
+      "degraded": false,
+      "retryCount": 0,
+      "version": 1,
+      "localMrn": "",
+      "rejectionCode": "",
+      "createdAt": "2026-10-20 17:00",
+      "updatedAt": "2026-10-20 17:00"
+    },
+    {
+      "ledgerId": 1,
+      "batchId": "ARCHIVE-20261020-A",
+      "messageType": "ADT^A01^ADT_A01",
+      "controlId": "ARCHIVE-0001",
+      "processingId": "P",
+      "state": "PENDING_CONFIRM",
+      "degraded": false,
+      "retryCount": 0,
+      "version": 1,
+      "localMrn": "",
+      "rejectionCode": "",
+      "createdAt": "2026-10-20 17:00",
+      "updatedAt": "2026-10-20 17:00"
+    }
+  ]
+}

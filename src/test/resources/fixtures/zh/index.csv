@@ -1,0 +1,137 @@
+file,class,person_id,remote_name,local_name,birth_date,id_card,pid3,local_mrn,zx_label,local_field
+zh_0101_simplified.hl7,simplified,1,张伟,张伟,19850512,000000198505120371,TESTPAT-0001,LOCMRN-0001,既往病史摘要,pastHistorySummary
+zh_0101_traditional.hl7,traditional,1,張偉,张伟,19850512,000000198505120371,TESTPAT-0001,LOCMRN-0001,既往病史摘要,pastHistorySummary
+zh_0201_homophone.hl7,homophone,1,章偉,张伟,19850512,000000198505120371,TESTPAT-0001,LOCMRN-0001,既往病史摘要,pastHistorySummary
+zh_0301_space.hl7,space,1,张 伟,张伟,19850512,000000198505120371,TESTPAT-0001,LOCMRN-0001,既往病史摘要,pastHistorySummary
+zh_0102_simplified.hl7,simplified,2,王芳,王芳,19790308,000000197903080745,TESTPAT-0002,LOCMRN-0002,既往病史摘要,pastHistorySummary
+zh_0102_traditional.hl7,traditional,2,王芳,王芳,19790308,000000197903080745,TESTPAT-0002,LOCMRN-0002,既往病史摘要,pastHistorySummary
+zh_0202_homophone.hl7,homophone,2,汪芳,王芳,19790308,000000197903080745,TESTPAT-0002,LOCMRN-0002,既往病史摘要,pastHistorySummary
+zh_0302_space.hl7,space,2,王　芳,王芳,19790308,000000197903080745,TESTPAT-0002,LOCMRN-0002,既往病史摘要,pastHistorySummary
+zh_0103_simplified.hl7,simplified,3,李娜,李娜,19910723,000000199107231118,TESTPAT-0003,LOCMRN-0003,既往病史摘要,pastHistorySummary
+zh_0103_traditional.hl7,traditional,3,李娜,李娜,19910723,000000199107231118,TESTPAT-0003,LOCMRN-0003,既往病史摘要,pastHistorySummary
+zh_0203_homophone.hl7,homophone,3,李纳,李娜,19910723,000000199107231118,TESTPAT-0003,LOCMRN-0003,既往病史摘要,pastHistorySummary
+zh_0303_space.hl7,space,3,李 娜,李娜,19910723,000000199107231118,TESTPAT-0003,LOCMRN-0003,既往病史摘要,pastHistorySummary
+zh_0104_simplified.hl7,simplified,4,刘洋,刘洋,19821130,000000198211301484,TESTPAT-0004,LOCMRN-0004,既往病史摘要,pastHistorySummary
+zh_0104_traditional.hl7,traditional,4,劉洋,刘洋,19821130,000000198211301484,TESTPAT-0004,LOCMRN-0004,既往病史摘要,pastHistorySummary
+zh_0204_homophone.hl7,homophone,4,留洋,刘洋,19821130,000000198211301484,TESTPAT-0004,LOCMRN-0004,既往病史摘要,pastHistorySummary
+zh_0304_space.hl7,space,4,刘　洋,刘洋,19821130,000000198211301484,TESTPAT-0004,LOCMRN-0004,既往病史摘要,pastHistorySummary
+zh_0105_simplified.hl7,simplified,5,陈静,陈静,19660417,000000196604171853,TESTPAT-0005,LOCMRN-0005,既往病史摘要,pastHistorySummary
+zh_0105_traditional.hl7,traditional,5,陳靜,陈静,19660417,000000196604171853,TESTPAT-0005,LOCMRN-0005,既往病史摘要,pastHistorySummary
+zh_0205_homophone.hl7,homophone,5,沉静,陈静,19660417,000000196604171853,TESTPAT-0005,LOCMRN-0005,既往病史摘要,pastHistorySummary
+zh_0305_space.hl7,space,5,陈 静,陈静,19660417,000000196604171853,TESTPAT-0005,LOCMRN-0005,既往病史摘要,pastHistorySummary
+zh_0106_simplified.hl7,simplified,6,杨敏,杨敏,19880905,000000198809052224,TESTPAT-0006,LOCMRN-0006,既往病史摘要,pastHistorySummary
+zh_0106_traditional.hl7,traditional,6,楊敏,杨敏,19880905,000000198809052224,TESTPAT-0006,LOCMRN-0006,既往病史摘要,pastHistorySummary
+zh_0206_homophone.hl7,homophone,6,杨悯,杨敏,19880905,000000198809052224,TESTPAT-0006,LOCMRN-0006,既往病史摘要,pastHistorySummary
+zh_0306_space.hl7,space,6,杨　敏,杨敏,19880905,000000198809052224,TESTPAT-0006,LOCMRN-0006,既往病史摘要,pastHistorySummary
+zh_0107_simplified.hl7,simplified,7,赵磊,赵磊,19951211,000000199512112593,TESTPAT-0007,LOCMRN-0007,既往病史摘要,pastHistorySummary
+zh_0107_traditional.hl7,traditional,7,趙磊,赵磊,19951211,000000199512112593,TESTPAT-0007,LOCMRN-0007,既往病史摘要,pastHistorySummary
+zh_0207_homophone.hl7,homophone,7,赵蕾,赵磊,19951211,000000199512112593,TESTPAT-0007,LOCMRN-0007,既往病史摘要,pastHistorySummary
+zh_0307_space.hl7,space,7,赵 磊,赵磊,19951211,000000199512112593,TESTPAT-0007,LOCMRN-0007,既往病史摘要,pastHistorySummary
+zh_0108_simplified.hl7,simplified,8,黄强,黄强,19740119,000000197401192966,TESTPAT-0008,LOCMRN-0008,既往病史摘要,pastHistorySummary
+zh_0108_traditional.hl7,traditional,8,黃強,黄强,19740119,000000197401192966,TESTPAT-0008,LOCMRN-0008,既往病史摘要,pastHistorySummary
+zh_0208_homophone.hl7,homophone,8,黄蔷,黄强,19740119,000000197401192966,TESTPAT-0008,LOCMRN-0008,既往病史摘要,pastHistorySummary
+zh_0308_space.hl7,space,8,黄　强,黄强,19740119,000000197401192966,TESTPAT-0008,LOCMRN-0008,既往病史摘要,pastHistorySummary
+zh_0109_simplified.hl7,simplified,9,周婷,周婷,19900326,000000199003263334,TESTPAT-0009,LOCMRN-0009,既往病史摘要,pastHistorySummary
+zh_0109_traditional.hl7,traditional,9,周婷,周婷,19900326,000000199003263334,TESTPAT-0009,LOCMRN-0009,既往病史摘要,pastHistorySummary
+zh_0209_homophone.hl7,homophone,9,祝婷,周婷,19900326,000000199003263334,TESTPAT-0009,LOCMRN-0009,既往病史摘要,pastHistorySummary
+zh_0309_space.hl7,space,9,周 婷,周婷,19900326,000000199003263334,TESTPAT-0009,LOCMRN-0009,既往病史摘要,pastHistorySummary
+zh_0110_simplified.hl7,simplified,10,吴斌,吴斌,19860714,00000019860714370X,TESTPAT-0010,LOCMRN-0010,既往病史摘要,pastHistorySummary
+zh_0110_traditional.hl7,traditional,10,吳斌,吴斌,19860714,00000019860714370X,TESTPAT-0010,LOCMRN-0010,既往病史摘要,pastHistorySummary
+zh_0210_homophone.hl7,homophone,10,吴滨,吴斌,19860714,00000019860714370X,TESTPAT-0010,LOCMRN-0010,既往病史摘要,pastHistorySummary
+zh_0310_space.hl7,space,10,吴　斌,吴斌,19860714,00000019860714370X,TESTPAT-0010,LOCMRN-0010,既往病史摘要,pastHistorySummary
+zh_0111_simplified.hl7,simplified,11,徐丽,徐丽,19981102,000000199811024075,TESTPAT-0011,LOCMRN-0011,既往病史摘要,pastHistorySummary
+zh_0111_traditional.hl7,traditional,11,徐麗,徐丽,19981102,000000199811024075,TESTPAT-0011,LOCMRN-0011,既往病史摘要,pastHistorySummary
+zh_0211_homophone.hl7,homophone,11,徐莉,徐丽,19981102,000000199811024075,TESTPAT-0011,LOCMRN-0011,既往病史摘要,pastHistorySummary
+zh_0311_space.hl7,space,11,徐 丽,徐丽,19981102,000000199811024075,TESTPAT-0011,LOCMRN-0011,既往病史摘要,pastHistorySummary
+zh_0112_simplified.hl7,simplified,12,孙涛,孙涛,19710521,000000197105214446,TESTPAT-0012,LOCMRN-0012,既往病史摘要,pastHistorySummary
+zh_0112_traditional.hl7,traditional,12,孫濤,孙涛,19710521,000000197105214446,TESTPAT-0012,LOCMRN-0012,既往病史摘要,pastHistorySummary
+zh_0212_homophone.hl7,homophone,12,孙滔,孙涛,19710521,000000197105214446,TESTPAT-0012,LOCMRN-0012,既往病史摘要,pastHistorySummary
+zh_0312_space.hl7,space,12,孙　涛,孙涛,19710521,000000197105214446,TESTPAT-0012,LOCMRN-0012,既往病史摘要,pastHistorySummary
+zh_0113_simplified.hl7,simplified,13,马超,马超,19890909,000000198909094819,TESTPAT-0013,LOCMRN-0013,既往病史摘要,pastHistorySummary
+zh_0113_traditional.hl7,traditional,13,馬超,马超,19890909,000000198909094819,TESTPAT-0013,LOCMRN-0013,既往病史摘要,pastHistorySummary
+zh_0213_homophone.hl7,homophone,13,马抄,马超,19890909,000000198909094819,TESTPAT-0013,LOCMRN-0013,既往病史摘要,pastHistorySummary
+zh_0313_space.hl7,space,13,马 超,马超,19890909,000000198909094819,TESTPAT-0013,LOCMRN-0013,既往病史摘要,pastHistorySummary
+zh_0114_simplified.hl7,simplified,14,朱琳,朱琳,19930407,000000199304075185,TESTPAT-0014,LOCMRN-0014,既往病史摘要,pastHistorySummary
+zh_0114_traditional.hl7,traditional,14,朱琳,朱琳,19930407,000000199304075185,TESTPAT-0014,LOCMRN-0014,既往病史摘要,pastHistorySummary
+zh_0214_homophone.hl7,homophone,14,竹林,朱琳,19930407,000000199304075185,TESTPAT-0014,LOCMRN-0014,既往病史摘要,pastHistorySummary
+zh_0314_space.hl7,space,14,朱　琳,朱琳,19930407,000000199304075185,TESTPAT-0014,LOCMRN-0014,既往病史摘要,pastHistorySummary
+zh_0115_simplified.hl7,simplified,15,胡军,胡军,19681230,000000196812305553,TESTPAT-0015,LOCMRN-0015,既往病史摘要,pastHistorySummary
+zh_0115_traditional.hl7,traditional,15,胡軍,胡军,19681230,000000196812305553,TESTPAT-0015,LOCMRN-0015,既往病史摘要,pastHistorySummary
+zh_0215_homophone.hl7,homophone,15,胡君,胡军,19681230,000000196812305553,TESTPAT-0015,LOCMRN-0015,既往病史摘要,pastHistorySummary
+zh_0315_space.hl7,space,15,胡 军,胡军,19681230,000000196812305553,TESTPAT-0015,LOCMRN-0015,既往病史摘要,pastHistorySummary
+zh_0116_simplified.hl7,simplified,16,郭静,郭静,19820918,000000198209185920,TESTPAT-0016,LOCMRN-0016,既往病史摘要,pastHistorySummary
+zh_0116_traditional.hl7,traditional,16,郭靜,郭静,19820918,000000198209185920,TESTPAT-0016,LOCMRN-0016,既往病史摘要,pastHistorySummary
+zh_0216_homophone.hl7,homophone,16,郭靖,郭静,19820918,000000198209185920,TESTPAT-0016,LOCMRN-0016,既往病史摘要,pastHistorySummary
+zh_0316_space.hl7,space,16,郭　静,郭静,19820918,000000198209185920,TESTPAT-0016,LOCMRN-0016,既往病史摘要,pastHistorySummary
+zh_0117_simplified.hl7,simplified,17,何欣,何欣,19960224,000000199602246296,TESTPAT-0017,LOCMRN-0017,既往病史摘要,pastHistorySummary
+zh_0117_traditional.hl7,traditional,17,何欣,何欣,19960224,000000199602246296,TESTPAT-0017,LOCMRN-0017,既往病史摘要,pastHistorySummary
+zh_0217_homophone.hl7,homophone,17,何馨,何欣,19960224,000000199602246296,TESTPAT-0017,LOCMRN-0017,既往病史摘要,pastHistorySummary
+zh_0317_space.hl7,space,17,何 欣,何欣,19960224,000000199602246296,TESTPAT-0017,LOCMRN-0017,既往病史摘要,pastHistorySummary
+zh_0118_simplified.hl7,simplified,18,高翔,高翔,19770616,000000197706166662,TESTPAT-0018,LOCMRN-0018,既往病史摘要,pastHistorySummary
+zh_0118_traditional.hl7,traditional,18,高翔,高翔,19770616,000000197706166662,TESTPAT-0018,LOCMRN-0018,既往病史摘要,pastHistorySummary
+zh_0218_homophone.hl7,homophone,18,高详,高翔,19770616,000000197706166662,TESTPAT-0018,LOCMRN-0018,既往病史摘要,pastHistorySummary
+zh_0318_space.hl7,space,18,高　翔,高翔,19770616,000000197706166662,TESTPAT-0018,LOCMRN-0018,既往病史摘要,pastHistorySummary
+zh_0119_simplified.hl7,simplified,19,林峰,林峰,19831213,000000198312137038,TESTPAT-0019,LOCMRN-0019,既往病史摘要,pastHistorySummary
+zh_0119_traditional.hl7,traditional,19,林峰,林峰,19831213,000000198312137038,TESTPAT-0019,LOCMRN-0019,既往病史摘要,pastHistorySummary
+zh_0219_homophone.hl7,homophone,19,临峰,林峰,19831213,000000198312137038,TESTPAT-0019,LOCMRN-0019,既往病史摘要,pastHistorySummary
+zh_0319_space.hl7,space,19,林 峰,林峰,19831213,000000198312137038,TESTPAT-0019,LOCMRN-0019,既往病史摘要,pastHistorySummary
+zh_0120_simplified.hl7,simplified,20,罗燕,罗燕,19910927,000000199109277400,TESTPAT-0020,LOCMRN-0020,既往病史摘要,pastHistorySummary
+zh_0120_traditional.hl7,traditional,20,羅燕,罗燕,19910927,000000199109277400,TESTPAT-0020,LOCMRN-0020,既往病史摘要,pastHistorySummary
+zh_0220_homophone.hl7,homophone,20,罗艳,罗燕,19910927,000000199109277400,TESTPAT-0020,LOCMRN-0020,既往病史摘要,pastHistorySummary
+zh_0320_space.hl7,space,20,罗　燕,罗燕,19910927,000000199109277400,TESTPAT-0020,LOCMRN-0020,既往病史摘要,pastHistorySummary
+zh_0121_simplified.hl7,simplified,21,郑爽,郑爽,19980704,000000199807047776,TESTPAT-0021,LOCMRN-0021,既往病史摘要,pastHistorySummary
+zh_0121_traditional.hl7,traditional,21,鄭爽,郑爽,19980704,000000199807047776,TESTPAT-0021,LOCMRN-0021,既往病史摘要,pastHistorySummary
+zh_0221_homophone.hl7,homophone,21,郑双,郑爽,19980704,000000199807047776,TESTPAT-0021,LOCMRN-0021,既往病史摘要,pastHistorySummary
+zh_0321_space.hl7,space,21,郑 爽,郑爽,19980704,000000199807047776,TESTPAT-0021,LOCMRN-0021,既往病史摘要,pastHistorySummary
+zh_0122_simplified.hl7,simplified,22,梁颖,梁颖,19850401,000000198504018148,TESTPAT-0022,LOCMRN-0022,既往病史摘要,pastHistorySummary
+zh_0122_traditional.hl7,traditional,22,梁穎,梁颖,19850401,000000198504018148,TESTPAT-0022,LOCMRN-0022,既往病史摘要,pastHistorySummary
+zh_0222_homophone.hl7,homophone,22,梁影,梁颖,19850401,000000198504018148,TESTPAT-0022,LOCMRN-0022,既往病史摘要,pastHistorySummary
+zh_0322_space.hl7,space,22,梁　颖,梁颖,19850401,000000198504018148,TESTPAT-0022,LOCMRN-0022,既往病史摘要,pastHistorySummary
+zh_0123_simplified.hl7,simplified,23,谢涛,谢涛,19720908,00000019720908851X,TESTPAT-0023,LOCMRN-0023,既往病史摘要,pastHistorySummary
+zh_0123_traditional.hl7,traditional,23,謝濤,谢涛,19720908,00000019720908851X,TESTPAT-0023,LOCMRN-0023,既往病史摘要,pastHistorySummary
+zh_0223_homophone.hl7,homophone,23,谢滔,谢涛,19720908,00000019720908851X,TESTPAT-0023,LOCMRN-0023,既往病史摘要,pastHistorySummary
+zh_0323_space.hl7,space,23,谢 涛,谢涛,19720908,00000019720908851X,TESTPAT-0023,LOCMRN-0023,既往病史摘要,pastHistorySummary
+zh_0124_simplified.hl7,simplified,24,宋洁,宋洁,19940122,000000199401228884,TESTPAT-0024,LOCMRN-0024,既往病史摘要,pastHistorySummary
+zh_0124_traditional.hl7,traditional,24,宋潔,宋洁,19940122,000000199401228884,TESTPAT-0024,LOCMRN-0024,既往病史摘要,pastHistorySummary
+zh_0224_homophone.hl7,homophone,24,宋杰,宋洁,19940122,000000199401228884,TESTPAT-0024,LOCMRN-0024,既往病史摘要,pastHistorySummary
+zh_0324_space.hl7,space,24,宋　洁,宋洁,19940122,000000199401228884,TESTPAT-0024,LOCMRN-0024,既往病史摘要,pastHistorySummary
+zh_0001_utf8.hl7,utf8,1,张伟,张伟,19850512,000000198505120371,TESTPAT-0001,LOCMRN-0001,既往病史摘要,pastHistorySummary
+zh_0001_gb18030.hl7,gb18030,1,张伟,张伟,19850512,000000198505120371,TESTPAT-0001,LOCMRN-0001,既往病史摘要,pastHistorySummary
+zh_0002_utf8.hl7,utf8,2,王芳,王芳,19790308,000000197903080745,TESTPAT-0002,LOCMRN-0002,既往病史摘要,pastHistorySummary
+zh_0002_gb18030.hl7,gb18030,2,王芳,王芳,19790308,000000197903080745,TESTPAT-0002,LOCMRN-0002,既往病史摘要,pastHistorySummary
+zh_0003_utf8.hl7,utf8,3,李娜,李娜,19910723,000000199107231118,TESTPAT-0003,LOCMRN-0003,既往病史摘要,pastHistorySummary
+zh_0003_gb18030.hl7,gb18030,3,李娜,李娜,19910723,000000199107231118,TESTPAT-0003,LOCMRN-0003,既往病史摘要,pastHistorySummary
+zh_0004_utf8.hl7,utf8,4,刘洋,刘洋,19821130,000000198211301484,TESTPAT-0004,LOCMRN-0004,既往病史摘要,pastHistorySummary
+zh_0004_gb18030.hl7,gb18030,4,刘洋,刘洋,19821130,000000198211301484,TESTPAT-0004,LOCMRN-0004,既往病史摘要,pastHistorySummary
+zh_0005_utf8.hl7,utf8,5,陈静,陈静,19660417,000000196604171853,TESTPAT-0005,LOCMRN-0005,既往病史摘要,pastHistorySummary
+zh_0005_gb18030.hl7,gb18030,5,陈静,陈静,19660417,000000196604171853,TESTPAT-0005,LOCMRN-0005,既往病史摘要,pastHistorySummary
+zh_0006_utf8.hl7,utf8,6,杨敏,杨敏,19880905,000000198809052224,TESTPAT-0006,LOCMRN-0006,既往病史摘要,pastHistorySummary
+zh_0006_gb18030.hl7,gb18030,6,杨敏,杨敏,19880905,000000198809052224,TESTPAT-0006,LOCMRN-0006,既往病史摘要,pastHistorySummary
+zh_0007_utf8.hl7,utf8,7,赵磊,赵磊,19951211,000000199512112593,TESTPAT-0007,LOCMRN-0007,既往病史摘要,pastHistorySummary
+zh_0007_gb18030.hl7,gb18030,7,赵磊,赵磊,19951211,000000199512112593,TESTPAT-0007,LOCMRN-0007,既往病史摘要,pastHistorySummary
+zh_0008_utf8.hl7,utf8,8,黄强,黄强,19740119,000000197401192966,TESTPAT-0008,LOCMRN-0008,既往病史摘要,pastHistorySummary
+zh_0008_gb18030.hl7,gb18030,8,黄强,黄强,19740119,000000197401192966,TESTPAT-0008,LOCMRN-0008,既往病史摘要,pastHistorySummary
+zh_0009_utf8.hl7,utf8,9,周婷,周婷,19900326,000000199003263334,TESTPAT-0009,LOCMRN-0009,既往病史摘要,pastHistorySummary
+zh_0009_gb18030.hl7,gb18030,9,周婷,周婷,19900326,000000199003263334,TESTPAT-0009,LOCMRN-0009,既往病史摘要,pastHistorySummary
+zh_0010_utf8.hl7,utf8,10,吴斌,吴斌,19860714,00000019860714370X,TESTPAT-0010,LOCMRN-0010,既往病史摘要,pastHistorySummary
+zh_0010_gb18030.hl7,gb18030,10,吴斌,吴斌,19860714,00000019860714370X,TESTPAT-0010,LOCMRN-0010,既往病史摘要,pastHistorySummary
+zh_0011_utf8.hl7,utf8,11,徐丽,徐丽,19981102,000000199811024075,TESTPAT-0011,LOCMRN-0011,既往病史摘要,pastHistorySummary
+zh_0011_gb18030.hl7,gb18030,11,徐丽,徐丽,19981102,000000199811024075,TESTPAT-0011,LOCMRN-0011,既往病史摘要,pastHistorySummary
+zh_0012_utf8.hl7,utf8,12,孙涛,孙涛,19710521,000000197105214446,TESTPAT-0012,LOCMRN-0012,既往病史摘要,pastHistorySummary
+zh_0012_gb18030.hl7,gb18030,12,孙涛,孙涛,19710521,000000197105214446,TESTPAT-0012,LOCMRN-0012,既往病史摘要,pastHistorySummary
+zh_0013_utf8.hl7,utf8,13,马超,马超,19890909,000000198909094819,TESTPAT-0013,LOCMRN-0013,既往病史摘要,pastHistorySummary
+zh_0013_gb18030.hl7,gb18030,13,马超,马超,19890909,000000198909094819,TESTPAT-0013,LOCMRN-0013,既往病史摘要,pastHistorySummary
+zh_0014_utf8.hl7,utf8,14,朱琳,朱琳,19930407,000000199304075185,TESTPAT-0014,LOCMRN-0014,既往病史摘要,pastHistorySummary
+zh_0014_gb18030.hl7,gb18030,14,朱琳,朱琳,19930407,000000199304075185,TESTPAT-0014,LOCMRN-0014,既往病史摘要,pastHistorySummary
+zh_0015_utf8.hl7,utf8,15,胡军,胡军,19681230,000000196812305553,TESTPAT-0015,LOCMRN-0015,既往病史摘要,pastHistorySummary
+zh_0015_gb18030.hl7,gb18030,15,胡军,胡军,19681230,000000196812305553,TESTPAT-0015,LOCMRN-0015,既往病史摘要,pastHistorySummary
+zh_0016_utf8.hl7,utf8,16,郭静,郭静,19820918,000000198209185920,TESTPAT-0016,LOCMRN-0016,既往病史摘要,pastHistorySummary
+zh_0016_gb18030.hl7,gb18030,16,郭静,郭静,19820918,000000198209185920,TESTPAT-0016,LOCMRN-0016,既往病史摘要,pastHistorySummary
+zh_0017_utf8.hl7,utf8,17,何欣,何欣,19960224,000000199602246296,TESTPAT-0017,LOCMRN-0017,既往病史摘要,pastHistorySummary
+zh_0017_gb18030.hl7,gb18030,17,何欣,何欣,19960224,000000199602246296,TESTPAT-0017,LOCMRN-0017,既往病史摘要,pastHistorySummary
+zh_0018_utf8.hl7,utf8,18,高翔,高翔,19770616,000000197706166662,TESTPAT-0018,LOCMRN-0018,既往病史摘要,pastHistorySummary
+zh_0018_gb18030.hl7,gb18030,18,高翔,高翔,19770616,000000197706166662,TESTPAT-0018,LOCMRN-0018,既往病史摘要,pastHistorySummary
+zh_0019_utf8.hl7,utf8,19,林峰,林峰,19831213,000000198312137038,TESTPAT-0019,LOCMRN-0019,既往病史摘要,pastHistorySummary
+zh_0019_gb18030.hl7,gb18030,19,林峰,林峰,19831213,000000198312137038,TESTPAT-0019,LOCMRN-0019,既往病史摘要,pastHistorySummary
+zh_0020_utf8.hl7,utf8,20,罗燕,罗燕,19910927,000000199109277400,TESTPAT-0020,LOCMRN-0020,既往病史摘要,pastHistorySummary
+zh_0020_gb18030.hl7,gb18030,20,罗燕,罗燕,19910927,000000199109277400,TESTPAT-0020,LOCMRN-0020,既往病史摘要,pastHistorySummary

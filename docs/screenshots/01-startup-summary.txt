@@ -1,0 +1,2 @@
+启动摘要: mllp=archive-platform.example.internal:2575 | redelivery=archive-platform.example.internal:2575 | localAet=CHSCOMMUNITY | remoteAets=REGIONAL_ARCHIVE | ackMode=framed_ack | db=jdbc:postgresql://127.0.0.1:5432/regional_archive | hisMpi=http://his-mpi.example.internal:8080 | ackApi=https://archive-platform.example.internal/api/v1 | model=REPLACE_ME_MODEL_NAME(timeout=15s,retries=2) | mllpReconnect=maxAttempts=3,base=200ms,cap=2000ms | secrets=[db:***,hisMpi:***,ackApi:***,api:***,model:***]
+回执方言建议: framed_ack（依据: 尚未与对端建立连接，按 HL7 规范的带帧形式给出默认建议，置信度: 报文头推断，是否已应用: 否，仅提示）

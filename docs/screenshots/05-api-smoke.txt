@@ -1,0 +1,80 @@
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.ledger.LedgerSchema migrate
+信息: schema 迁移完成: version=V5, scripts=5, segments=27, elapsedMs=23
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=1 type=ADT^A01^ADT_A01 ctrl=ARCHIVE-0001 proc=P batch=ARCHIVE-20261020-A state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=2 type=ADT^A01^ADT_A01 ctrl=ARCHIVE-0002 proc=P batch=ARCHIVE-20261020-A state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=3 type=ADT^A01^ADT_A01 ctrl=(空) proc=P batch=ARCHIVE-20261020-A state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.http.HttpApiServer start
+信息: 院内 API 已监听：127.0.0.1:50,369 端点数=v1
+院内 API 已监听 http://127.0.0.1:50369（自检模式：内嵌台账 + 回环对端，不读凭据）
+
+── 1. GET /healthz（探针不带令牌）
+   HTTP 200  {"status":"UP","service":"regional-archive-ingest-ack","apiVersion":"v1","localAet":"CHSCOMMUNITY","schemaVersion":"V5","time":"2026-10-20 17:00"}
+   [PASS] healthz 200
+   [PASS] healthz 带服务名
+
+── 2. GET /messages 不带令牌（缺凭据）
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.http.ApiTokenGuard lambda$authenticate$0
+警告: 接口鉴权失败：未携带令牌 method=GET path=/messages
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.http.Routes dispatch
+警告: 接口返回 401：method=GET path=/messages code=TOKEN_MISSING msg=缺少接入令牌：请在 Authorization 头带上 Bearer 令牌，或使用 X-Archive-Api-Token 头
+   HTTP 401  {"errorCode":"TOKEN_MISSING","message":"缺少接入令牌：请在 Authorization 头带上 Bearer 令牌，或使用 X-Archive-Api-Token 头","status":401,"path":"/messages"}
+   [PASS] 无令牌 401
+   [PASS] 无令牌 errorCode=TOKEN_MISSING
+
+── 3. GET /messages?state=PENDING_CONFIRM（带令牌）
+   HTTP 200  {"state":"PENDING_CONFIRM","batchId":"ARCHIVE-20261020-A","limit":50,"total":2,"items":[{"ledgerId":2,"batchId":"ARCHIVE-20261020-A","messageType":"ADT^A01^ADT_A01","controlId":"ARCHIVE-0002","processingId":"P","state":"PENDING_CONFIRM","degraded":false,"retryCount":0,"version":1,"localMrn":"","rejectionCode":"","createdAt":"2026-10-20 17:00","updatedAt":"2026-10-20 17:00"},{"ledgerId":1,"batchId":"ARCHIVE-20261020-A","messageType":"ADT^A01^ADT_A01","controlId":"ARCHIVE-0001","processingId":"P","state":"PENDING_CONFIRM","degraded":false,"retryCount":0,"version":1,"localMrn":"","rejectionCode":"","createdAt":"2026-10-20 17:00","updatedAt":"2026-10-20 17:00"}]}
+   [PASS] 待办查询 200
+   [PASS] 待办 2 条
+
+── 4. POST /batches/ARCHIVE-20261020-A/confirm（操作人取自令牌）
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.identity.JdbcPatientKeyStore bind
+信息: 双主键绑定完成：台账行=1，区域主键=PAT-0001，院内主键=(尚未绑定)（区域主键与院内主键分列写入 patient_ref / local_mrn）
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.http.ApiSmoke$SilentPatientIndexWriter put
+信息: 自检模式：本次确认触发了院内患者主索引写入 patientRef=PAT-0001 localMrn=MRN-884512 sourceBatch=ARCHIVE-20261020-A（自检不发真实 HTTP）
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.ledger.ArchiveIngestService land
+信息: 确认落地并写入患者主索引: ledgerId=1 batch=ARCHIVE-20261020-A operator=clerk-007
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.identity.ConfirmGate confirm
+信息: 确认门通过：ledgerId=1 batch=ARCHIVE-20261020-A state=LANDED 写院内主索引=true operator=clerk-007 来源=model-candidate#1
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.http.Routes confirm
+信息: 接口确认生效：ledgerId=1 batch=ARCHIVE-20261020-A operator=clerk-007 写院内主索引=true
+   HTTP 200  {"confirmed":true,"ledgerId":1,"batchId":"ARCHIVE-20261020-A","operator":"clerk-007","humanClaimed":true,"state":"LANDED","wrotePatientIndex":true,"patientRef":"PAT-0001","localMrn":"MRN-884512","note":"已写院内患者主索引并标记已落地"}
+   [PASS] 确认生效 200
+   [PASS] 操作人取自令牌 clerk-007
+   [PASS] 状态到已落地
+
+── 5. 同一条重复确认（已落地 → 409，不静默成功）
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.identity.ConfirmGate refuse
+警告: 确认被拒：ledgerId=1 state=LANDED reason=ALREADY_LANDED operator=clerk-007 —— ledgerId=1 state=LANDED ctrl=ARCHIVE-0001 batch=ARCHIVE-20261020-A
+   HTTP 409  {"errorCode":"STATE_CONFLICT","message":"这一条已经落地过了：ledgerId=1 state=LANDED ctrl=ARCHIVE-0001 batch=ARCHIVE-20261020-A","status":409,"path":"/batches/ARCHIVE-20261020-A/confirm","detail":{"confirmed":false,"ledgerId":1,"batchId":"ARCHIVE-20261020-A","operator":"clerk-007","humanClaimed":true,"state":"LANDED","wrotePatientIndex":false,"patientRef":"","localMrn":"","note":"这一条已经落地过了：ledgerId=1 state=LANDED ctrl=ARCHIVE-0001 batch=ARCHIVE-20261020-A","refusal":"ALREADY_LANDED"}}
+   [PASS] 重复确认 409
+   [PASS] 重复确认拒绝码 ALREADY_LANDED
+
+── 6. POST .../revert（撤回退回待确认）
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.ledger.RevertService revert
+信息: 撤回重审: ledgerId=1 batch=ARCHIVE-20261020-A LANDED → PENDING_CONFIRM operator=clerk-007 reason=revert:居民信息员说这条挂错了人
+   HTTP 200  {"reverted":true,"ledgerId":1,"batchId":"ARCHIVE-20261020-A","operator":"clerk-007","fromState":"LANDED","state":"PENDING_CONFIRM","note":"已撤回至待确认，可重新确认"}
+   [PASS] 撤回 200
+   [PASS] 撤回后退回待确认
+
+── 7. GET /batches/{batchId}/stats（四态分布）
+   HTTP 200  {"batchId":"ARCHIVE-20261020-A","total":3,"landed":0,"pendingConfirm":2,"received":0,"rejected":1,"lowConfidencePending":0,"counts":{"RECEIVED":0,"PENDING_CONFIRM":2,"LANDED":0,"REJECTED":1},"retryStates":{"PENDING_RETRY":0,"RETRYING":0,"RETRY_CONFIRMED":0,"RETRY_PERMANENT_FAILED":0},"rejectionReasons":{"missing-required-field":1},"headline":"批次 ARCHIVE-20261020-A 共 3 条：已落地 0 / 待确认 2 / 拒收 1"}
+   [PASS] 统计 200
+   [PASS] 统计含拒收 1 条
+
+── 8. GET /batches/{batchId}/reconcile（对端只认了第 1 条 → 差集缺 1 条）
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.redelivery.BatchReconcilerClient fetchAcks
+信息: 回执对账成功: 对端回执列表 batch=ARCHIVE-20261020-A 自述条数=(未回报) 实际解析=1 去重后=1 其中AA=1 耗时=1ms
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.redelivery.AckReconciler diff
+信息: 批次 ARCHIVE-20261020-A 对账差集: 本端应发=2 对端回报=1（自述=未回报） 对上=1 缺失=1 → 重投清单：ARCHIVE-0002 
+10月 21, 2026 11:24:00 上午 cn.hospital.region.archive.http.Routes reconcile
+警告: 批次 ARCHIVE-20261020-A 有 1 条控制号为空，无法参与差集比对（已单列，未混入重投清单）
+   HTTP 200  {"batchId":"ARCHIVE-20261020-A","expectedCount":2,"declaredAckCount":-1,"remoteAckCount":1,"matchedCount":1,"missingCount":1,"complete":false,"countMismatch":false,"matched":[{"ledgerId":1,"controlId":"ARCHIVE-0001","state":"PENDING_CONFIRM","remoteAckCode":"AA"}],"missing":[{"ledgerId":2,"controlId":"ARCHIVE-0002","state":"PENDING_CONFIRM","normalizedControlId":"ARCHIVE-2","reason":"对端回执列表里没有这一条（已按控制号归一比对）"}],"unexpectedRemoteControlIds":[],"ambiguousControlIds":[],"duplicatedRemoteControlIds":[],"note":"本接口只出清单，不入重投队列；入队由重投调度按退避策略执行；对不上 + 缺失 + 无法比对 = 台账本批总条数","uncomparableControlIds":[{"ledgerId":3,"state":"REJECTED","rejectionCode":"missing-required-field","reason":"控制号为空，无法与对端回执按控制号比对（本端已按拒收处理，不会因缺回执而重投）"}],"uncomparableCount":1}
+   [PASS] 对账 200
+   [PASS] 对账缺 1 条
+
+台账：ledgerId(first)=1 ledgerId(second)=2 ledgerId(rejected)=3
+
+API 自检 PASS：令牌校验、409 语义、操作人取自令牌、四态统计与对账差集均符合契约

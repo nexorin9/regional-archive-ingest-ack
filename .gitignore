@@ -1,0 +1,51 @@
+# ---- 运行期与本地配置（严禁入库）----
+.env
+.env.*
+!.env.example
+config/local/
+*.pid
+
+# ---- 构建产物 ----
+target/
+dist/
+build/
+out/
+*.jar
+!target/**/*.jar
+
+# ---- 依赖 ----
+node_modules/
+venv/
+.venv/
+
+# ---- 运行时数据 ----
+data/
+logs/
+*.log
+tmp/
+temp/
+.cache/
+
+# ---- 测试与工具缓存 ----
+coverage/
+.next/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# ---- macOS ----
+.DS_Store
+
+# ---- round 元数据（不属于发布项目）----
+score.json
+
+# 注意：qrcode.jpg 与 src/test/resources/fixtures/ 是交付物的一部分，不要排除

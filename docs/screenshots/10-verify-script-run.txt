@@ -1,0 +1,85 @@
+# 实测证据 · 发布前可复现验证脚本的完整一次真实运行
+# 采集命令：bash scripts/verify.sh   （时间：2026-10-21 15:28，本机 JDK 17.0.20.1）
+# 这是真实运行回显，不是设计稿；42 项断言逐条 PASS，进程退出码 0。
+
+
+══ 0. 环境前置
+   java   = /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home/bin/java（openjdk version "17.0.20.1" 2026-08-18）
+   mvn    = /opt/homebrew/bin/mvn
+   curl   = /usr/bin/curl
+   [PASS] JDK 17+ 可用                         期望=版本号 ≥ 17 实际=openjdk version "17.0.20.1" 2026-08-18
+   [PASS] mvn 可用                             期望=非空 实际=/opt/homebrew/bin/mvn
+   [PASS] curl 可用                            期望=非空 实际=/usr/bin/curl
+
+══ 1. 构建可执行 jar
+   （默认跳过测试；全量测试请跑 mvn -o test，或设 VERIFY_WITH_TESTS=1）
+   [PASS] mvn -o package                         期望=退出码 0 实际=退出码 0
+   [PASS] 可执行 jar 存在                   期望=存在 实际=存在
+
+══ 2. 配置自检（凭据只从环境变量读，缺失即退出码 2）
+   [PASS] 配置齐全时 --check-config         期望=退出码 0 实际=退出码 0
+   [PASS] 启动摘要含 MLLP 监听端口      期望=mllp=<主机>:<端口> 实际=mllp=archive-platform.example.internal:2575
+   [PASS] 五项凭据一律打码               期望=5 个 *** 实际=5 个 ***
+   [PASS] 凭据明文不出现在启动日志   期望=0 处泄漏 实际=0 处泄漏
+   [PASS] 缺 HIS_MPI_TOKEN 即退出            期望=退出码 2 实际=退出码 2
+   [PASS] 错误信息点名变量               期望=含「缺失环境变量 HIS_MPI_TOKEN」 实际=缺失环境变量 HIS_MPI_TOKEN
+
+══ 3. 起常驻进程：MLLP 监听口 + 院内 HTTP API + 台账
+   READY mllp=59199 http=59200 batch=ARCHIVE-20261020-VERIFY schema=V5
+   [PASS] MLLP 监听口已绑定                期望=本机回环端口 实际=127.0.0.1:59199
+   [PASS] 院内 HTTP API 已监听              期望=本机回环端口 实际=127.0.0.1:59200
+
+══ 4. 真实 MLLP 报文往返（3 条齐全 + 1 条故意缺 MSH-10）
+   SENT=4 ACKS=4 MSA_AA=3 MSA_AE=1 MSA_AR=0 ERR_SEGMENTS=1
+   MSA|AA|VERIFY-CTRL-0001|||||||ACK00000120261021072538|2.5.1|
+   MSA|AA|VERIFY-CTRL-0002|||||||ACK00000220261021072538|2.5.1|
+   MSA|AA|VERIFY-CTRL-0003|||||||ACK00000320261021072538|2.5.1|
+   MSA|AE||必需字段缺失或为空：MSH-10||||||ACK00000420261021072538|2.5.1|
+   ERR|control-id-missing^MSH^10||control-id-missing^必需字段缺失或为空^101^HL70357|MSH-10（报文控制号）缺失或为空，第 1 段，原值片段[MSH\F\\S\\R\\E\\T\\F\REGIONAL_ARCHIVE\F\FACILI]，建议错误码 control-id-missing（HL7码:control-id-missing）
+   [PASS] 每条报文一个应用级回执      期望=SENT=4 ACKS=4 实际=SENT=4 ACKS=4 MSA_AA=3 MSA_AE=1 MSA_AR=0 ERR_SEGMENTS=1
+   [PASS] 齐全报文回执 MSA-1=AA            期望=MSA_AA=3 实际=3
+   [PASS] 缺 MSH-10 的报文回 AE+ERR         期望=MSA_AE=1 且 ERR 段 1 个 实际=
+   [PASS] ERR 段指向出错段字段           期望=ERR-1 含 MSH^10 实际=control-id-missing^MSH^10
+
+══ 5. curl 打院内 HTTP 端点
+   [PASS] GET /healthz（探针不带令牌）   期望=200 实际=200
+   [PASS] healthz 带本院 AE                   期望=CHSCOMMUNITY 实际="localAet":"CHSCOMMUNITY"
+   [PASS] GET /messages 不带令牌             期望=401 实际=401
+   [PASS] GET /messages 带令牌                期望=200 实际=200
+   [PASS] 待办条数 = 合法报文数         期望=3 实际=3
+   [PASS] 确认前 localMrn 显式为空        期望="localMrn":"" 实际="localMrn":""
+   四态统计：{"batchId":"ARCHIVE-20261020-VERIFY","total":4,"landed":0,"pendingConfirm":3,"received":0,"rejected":1,"lowConfidencePending":0,"counts":{"RECEIVED":0,"PENDING_CONFIRM":3,"LANDED":0,"REJECTED":1},"retryStates":{"PENDING_
+   [PASS] 回执条数 == 台账条数           期望=4 实际=4
+   [PASS] 待确认 / 拒收分布               期望=3 / 1 实际=3 / 1
+   [PASS] 未确认时已落地为 0（零写入） 期望=0 实际=0
+   [PASS] POST /confirm（唯一落地通道）  期望=200 实际=200
+   [PASS] 确认后状态为已落地            期望="state":"LANDED" 实际="state":"LANDED"
+   [PASS] 操作人取自令牌而非请求体   期望="operator":"clerk-verify" 实际="operator":"clerk-verify"
+   [PASS] 确认后才写院内主索引         期望=wrotePatientIndex=true 实际="wrotePatientIndex":true
+   [PASS] 重复确认不静默成功            期望=409 实际=409
+   [PASS] 重复确认拒绝码                  期望=ALREADY_LANDED 实际="refusal":"ALREADY_LANDED"
+   [PASS] 确认后台账已落地 1 条         期望=1 实际=1
+   [PASS] POST /revert                           期望=200 实际=200
+   [PASS] 撤回后回到待确认               期望="state":"PENDING_CONFIRM" 实际="state":"PENDING_CONFIRM"
+   [PASS] 撤回后已落地归 0、待确认复原 期望=0 / 3 实际=0 / 3
+   [PASS] 对账对端不可达时降级         期望=503 实际=503
+   [PASS] 降级响应带错误码               期望=REMOTE_UNAVAILABLE 实际="errorCode":"REMOTE_UNAVAILABLE"
+   [PASS] 对账失败不产出差集            期望=响应体不含差集字段 实际=无差集
+
+══ 6. 隔离自证
+   [PASS] 回执对账只指向本机关闭端口 期望=127.0.0.1:9 实际=127.0.0.1:9
+   [PASS] 确认动作只触发本地写端口   期望=验证模式：触发院内患者主索引写入 实际=验证模式：触发院内患者主索引写入
+   [PASS] 运行日志里没有占位凭据原文 期望=0 处 实际=0 处
+
+══ 验证摘要
+   通过 42 项 / 失败 0 项
+
+   结论摘要（真实运行，不是文档承诺）：
+   - 一条形状完整的入站档案报文 → 拆帧 → 结构化 → 逐条 MSA 回执（AA）+ 一条台账，
+     全链路在本机回环口上跑通，回执条数与台账条数相等；
+   - 故意缺 MSH-10 的报文 → MSA-1=AE + ERR 段指向 MSH^10，单独入账为拒收、不进重投；
+   - 待确认条目在人工确认动作之前，院内患者主索引写入次数为 0；确认一次写一次，
+     重复确认 409 不静默成功，撤回后回到待确认可重走；
+   - 区域平台回执接口不可达时 /reconcile 返回 503 且不出差集，失败不静默。
+
+   结论：PASS

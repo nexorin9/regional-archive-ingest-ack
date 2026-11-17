@@ -1,0 +1,467 @@
+openapi: 3.0.3
+info:
+  title: 区域健康档案接入与回执系统 · 院内 HTTP API
+  version: v1
+  description: |
+    由本院前置机提供的 HTTP API；供**院内部署的既有业务系统**调用，
+    不是面向浏览器或公网的接口。所有业务端点都需要 Bearer 令牌；
+    `/healthz` 不带令牌（探针没有凭据）。
+    来源：与 `cn.hospital.region.archive.http.Routes.dispatch()`
+    的注册表**双向对齐**（`OpenApiConsistencyTest` 守住）。
+
+servers:
+  - url: http://127.0.0.1:8080
+    description: 院内前置机（默认端口；命令行可通过 --port 改）
+
+# 与 Routes.dispatch() 注册表**一一对应**：
+#   GET  /healthz
+#   POST /batches/{batchId}/confirm
+#   POST /batches/{batchId}/revert
+#   GET  /messages
+#   GET  /batches/{batchId}/stats
+#   GET  /batches/{batchId}/reconcile
+# 任何一端增减都须同步修改两处，并跑 OpenApiConsistencyTest。
+
+components:
+  securitySchemes:
+    ArchiveApiToken:
+      type: http
+      scheme: bearer
+      description: |
+        形如 `Bearer <主体名>:<令牌>`；主体名只允许字母数字与 . _ - @。
+        裸 `Bearer <令牌>` 被识别为机器主体 `service:<本院 AE Title>`，
+        与人工主体在审计行里**可以**区分。
+  schemas:
+    ErrorBody:
+      type: object
+      required: [errorCode, status, message]
+      properties:
+        errorCode:
+          type: string
+          enum:
+            - MALFORMED_JSON
+            - MISSING_FIELD
+            - INVALID_PARAMETER
+            - METHOD_NOT_ALLOWED
+            - TOKEN_MISSING
+            - TOKEN_INVALID
+            - ROUTE_NOT_FOUND
+            - LEDGER_ROW_NOT_FOUND
+            - STATE_CONFLICT
+            - REMOTE_REJECTED
+            - REMOTE_UNAVAILABLE
+            - HIS_WRITE_FAILED
+            - INTERNAL_ERROR
+        status:
+          type: integer
+        message:
+          type: string
+        path:
+          type: string
+        detail:
+          type: object
+
+paths:
+  /healthz:
+    get:
+      summary: 进程探针（不带令牌）
+      description: |
+        进程活没活；`localAet` 与当前台账 `schemaVersion` 也在响应里。
+        **不**鉴权：探针没有凭据，但只暴露三项已知字段。
+      security: []
+      responses:
+        "200":
+          description: 服务端在跑
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status, service, apiVersion, localAet, schemaVersion, time]
+                properties:
+                  status: { type: string, enum: [UP] }
+                  service: { type: string }
+                  apiVersion: { type: string }
+                  localAet: { type: string }
+                  schemaVersion: { type: string }
+                  time: { type: string }
+        "500":
+          description: 内部错误（响应体不带 SQL 片段 / 栈）
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+
+  /batches/{batchId}/confirm:
+    post:
+      summary: 信息员确认「这条报文属于哪一位居民」
+      description: |
+        **唯一落地通道**：从待确认态推进到已落地态。
+        操作人**只从令牌**取；请求体里的 `operator` 被忽略（防冒名）。
+        拒绝体缺失字段一律 400；不存在的 ledgerId 或跨批次 404；
+        已落地重复确认 / 拒收条目被确认 / 并发争用一律 409。
+      security:
+        - ArchiveApiToken: []
+      parameters:
+        - name: batchId
+          in: path
+          required: true
+          schema: { type: string }
+          description: 批次归属校验：ledgerId 必须属于该批次，否则 404。
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [ledgerId, patientRef, localMrn]
+              properties:
+                ledgerId:
+                  type: integer
+                  format: int64
+                  minimum: 1
+                  description: 台账行主键
+                patientRef:
+                  type: string
+                  minLength: 1
+                  description: 区域平台主键（取报文 PID-3）
+                localMrn:
+                  type: string
+                  minLength: 1
+                  description: 院内患者主键；汉字被拒
+                candidateSource:
+                  type: string
+                  description: 候选来源（候选来源说明，留空默认 `api-call`）
+                note:
+                  type: string
+                  description: 信息员备注；可空
+      responses:
+        "200":
+          description: 确认生效；可能已写过院内患者主索引
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [confirmed, ledgerId, batchId, operator, humanClaimed, state, wrotePatientIndex]
+                properties:
+                  confirmed: { type: boolean }
+                  ledgerId: { type: integer, format: int64 }
+                  batchId: { type: string }
+                  operator: { type: string }
+                  humanClaimed: { type: boolean }
+                  state: { type: string, enum: [LANDED] }
+                  wrotePatientIndex: { type: boolean }
+                  patientRef: { type: string }
+                  localMrn: { type: string }
+                  note: { type: string }
+        "400":
+          description: 请求体不合法（缺字段 / JSON 坏）
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "401":
+          description: 令牌缺失或不正确
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "404":
+          description: 台账里没有这一条，或不属于这个批次
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "409":
+          description: 状态冲突：已落地重复确认 / 拒收条目被确认 / 并发争用
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "503":
+          description: 写院内患者主索引失败；该条仍停在待确认，可重试
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+
+  /batches/{batchId}/revert:
+    post:
+      summary: 撤回已落地的条目，回到待确认重走
+      description: |
+        与 T17 的 `RevertService.revert` 走同一接口；不允许开后门。
+        拒绝体缺失字段 400；非法迁移 409；不存在的行 404。
+      security:
+        - ArchiveApiToken: []
+      parameters:
+        - name: batchId
+          in: path
+          required: true
+          schema: { type: string }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [ledgerId, reason]
+              properties:
+                ledgerId:
+                  type: integer
+                  format: int64
+                  minimum: 1
+                reason:
+                  type: string
+                  minLength: 1
+                  description: 撤回理由（进审计行）
+      responses:
+        "200":
+          description: 撤回成功
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [reverted, ledgerId, batchId, operator, fromState, state, note]
+                properties:
+                  reverted: { type: boolean }
+                  ledgerId: { type: integer, format: int64 }
+                  batchId: { type: string }
+                  operator: { type: string }
+                  fromState: { type: string }
+                  state: { type: string, enum: [PENDING_CONFIRM] }
+                  note: { type: string }
+        "400":
+          description: 请求体缺字段
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "401":
+          description: 令牌缺失或不正确
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "404":
+          description: 台账里没有这一条
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "409":
+          description: 当前状态不允许撤回
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+
+  /messages:
+    get:
+      summary: 列出某状态下、某批次内的台账条目
+      description: |
+        不给 `state` 一律 400（让响应体随批次膨胀会对账不便）。
+        `limit` 默认 50、上限 200。
+      security:
+        - ArchiveApiToken: []
+      parameters:
+        - name: state
+          in: query
+          required: true
+          schema:
+            type: string
+            enum:
+              - RECEIVED
+              - PENDING_CONFIRM
+              - LANDED
+              - REJECTED
+              - PENDING_RETRY
+              - RETRYING
+              - RETRY_CONFIRMED
+              - RETRY_PERMANENT_FAILED
+        - name: batchId
+          in: query
+          required: false
+          schema: { type: string }
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, default: 50, maximum: 200 }
+      responses:
+        "200":
+          description: 列表
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [state, total, items]
+                properties:
+                  state: { type: string }
+                  batchId: { type: string, nullable: true }
+                  limit: { type: integer }
+                  total: { type: integer }
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      required: [ledgerId, batchId, messageType, controlId, processingId, state, degraded, retryCount, version, createdAt, updatedAt]
+                      properties:
+                        ledgerId: { type: integer, format: int64 }
+                        batchId: { type: string }
+                        messageType: { type: string }
+                        controlId: { type: string }
+                        processingId: { type: string }
+                        state: { type: string }
+                        degraded: { type: boolean }
+                        retryCount: { type: integer }
+                        version: { type: integer }
+                        localMrn: { type: string, nullable: true }
+                        rejectionCode: { type: string, nullable: true }
+                        createdAt: { type: string }
+                        updatedAt: { type: string }
+        "400":
+          description: state 拼错或 limit 非数字
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "401":
+          description: 令牌缺失或不正确
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+
+  /batches/{batchId}/stats:
+    get:
+      summary: 批次四态分布 + 拒收原因占比
+      description: |
+        下午「这一批收到几条」核对的对端入口。
+        未知批次返回全 0 分布 + 不报错。
+      security:
+        - ArchiveApiToken: []
+      parameters:
+        - name: batchId
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: 批次分布
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [batchId, total, landed, pendingConfirm, received, rejected, lowConfidencePending, counts, retryStates, rejectionReasons, headline]
+                properties:
+                  batchId: { type: string }
+                  total: { type: integer }
+                  landed: { type: integer }
+                  pendingConfirm: { type: integer }
+                  received: { type: integer }
+                  rejected: { type: integer }
+                  lowConfidencePending: { type: integer }
+                  counts:
+                    type: object
+                    additionalProperties: { type: integer }
+                  retryStates:
+                    type: object
+                    additionalProperties: { type: integer }
+                  rejectionReasons:
+                    type: object
+                    additionalProperties: { type: integer }
+                  headline: { type: string }
+        "401":
+          description: 令牌缺失或不正确
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+
+  /batches/{batchId}/reconcile:
+    get:
+      summary: 与区域平台回执对账（只读，不入队）
+      description: |
+        只**取**差集（`matched` / `missing`）；**不**把缺失条目塞进重投队列。
+        入队是写动作，挂在 GET 上会让探针重试与网关预取误触发——
+        入队由重投调度（T33）按退避策略决定。
+      security:
+        - ArchiveApiToken: []
+      parameters:
+        - name: batchId
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: 差集
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [batchId, expectedCount, declaredAckCount, remoteAckCount, matchedCount, missingCount, complete, countMismatch, matched, missing]
+                properties:
+                  batchId: { type: string }
+                  expectedCount: { type: integer }
+                  declaredAckCount: { type: integer }
+                  remoteAckCount: { type: integer }
+                  matchedCount: { type: integer }
+                  missingCount: { type: integer }
+                  complete: { type: boolean }
+                  countMismatch: { type: boolean }
+                  matched:
+                    type: array
+                    items:
+                      type: object
+                      required: [ledgerId, controlId, state, remoteAckCode]
+                      properties:
+                        ledgerId: { type: integer, format: int64 }
+                        controlId: { type: string }
+                        state: { type: string }
+                        remoteAckCode: { type: string }
+                  missing:
+                    type: array
+                    items:
+                      type: object
+                      required: [ledgerId, controlId, state, normalizedControlId, reason]
+                      properties:
+                        ledgerId: { type: integer, format: int64 }
+                        controlId: { type: string }
+                        state: { type: string }
+                        normalizedControlId: { type: string }
+                        reason: { type: string }
+                  unexpectedRemoteControlIds:
+                    type: array
+                    items: { type: string }
+                  ambiguousControlIds:
+                    type: array
+                    items: { type: string }
+                  duplicatedRemoteControlIds:
+                    type: array
+                    items: { type: string }
+                  uncomparableControlIds:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        ledgerId: { type: integer, format: int64 }
+                        state: { type: string }
+                        rejectionCode: { type: string, nullable: true }
+                  uncomparableCount: { type: integer }
+                  note: { type: string }
+        "401":
+          description: 令牌缺失或不正确
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "502":
+          description: 区域平台回执接口拒绝
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"
+        "503":
+          description: 区域平台回执接口不可达
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorBody"

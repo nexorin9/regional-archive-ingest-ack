@@ -1,0 +1,8 @@
+[smoke] 监听口已起：127.0.0.1:50364 回执方言=bare_ack localAet=CHSCOMMUNITY remoteAet=REGIONAL_ARCHIVE
+[smoke] 传输级确认字节（本方言实测形状）：0x06
+[smoke] 回执报文条数=2（本轮发 2 帧：一条字段齐全、一条缺 MSH-10）
+[smoke]   MSA-1=AA MSA-2=SMOKE-CTRL-0001 ERR=无
+[smoke]   MSA-1=AE MSA-2=(空) ERR=有（MSH-10）
+[smoke] 应用级账页：已接收=1 待确认=1 已落地=0 拒收=0（已落地为 0：还没人点确认）
+[smoke] 可重投条目=1（AR 类不重投） 传输级已确认帧数=2
+[smoke] PASS

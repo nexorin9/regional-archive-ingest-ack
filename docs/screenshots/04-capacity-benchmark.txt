@@ -1,0 +1,1032 @@
+10月 21, 2026 11:23:57 上午 cn.hospital.region.archive.ledger.LedgerSchema migrate
+信息: schema 迁移完成: version=V5, scripts=5, segments=27, elapsedMs=23
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=3 type=ADT^A01^ADT_A01 ctrl=CAP-00001 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=10 type=ADT^A01^ADT_A01 ctrl=CAP-00007 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=5 type=ADT^A01^ADT_A01 ctrl=CAP-00005 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=9 type=ADT^A01^ADT_A01 ctrl=CAP-00008 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=2 type=ADT^A01^ADT_A01 ctrl=CAP-00003 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=6 type=ADT^A01^ADT_A01 ctrl=CAP-00004 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=1 type=ADT^A01^ADT_A01 ctrl=CAP-00006 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=8 type=ADT^A01^ADT_A01 ctrl=CAP-00009 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=13 type=ADT^A01^ADT_A01 ctrl=CAP-00014 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=15 type=ADT^A01^ADT_A01 ctrl=CAP-00013 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=17 type=ADT^A01^ADT_A01 ctrl=CAP-00017 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=4 type=ADT^A01^ADT_A01 ctrl=CAP-00010 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=16 type=ADT^A01^ADT_A01 ctrl=CAP-00016 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=7 type=ADT^A01^ADT_A01 ctrl=CAP-00002 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=20 type=ADT^A01^ADT_A01 ctrl=CAP-00021 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=18 type=ADT^A01^ADT_A01 ctrl=CAP-00018 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=19 type=ADT^A01^ADT_A01 ctrl=CAP-00019 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=23 type=ADT^A01^ADT_A01 ctrl=CAP-00024 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=21 type=ADT^A01^ADT_A01 ctrl=CAP-00020 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=22 type=ADT^A01^ADT_A01 ctrl=CAP-00022 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=14 type=ADT^A01^ADT_A01 ctrl=CAP-00015 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=11 type=ADT^A01^ADT_A01 ctrl=CAP-00011 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=26 type=ADT^A01^ADT_A01 ctrl=CAP-00023 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=12 type=ADT^A01^ADT_A01 ctrl=CAP-00012 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=30 type=ADT^A01^ADT_A01 ctrl=CAP-00031 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=31 type=ADT^A01^ADT_A01 ctrl=CAP-00033 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=35 type=ADT^A01^ADT_A01 ctrl=CAP-00035 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=32 type=ADT^A01^ADT_A01 ctrl=CAP-00032 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=33 type=ADT^A01^ADT_A01 ctrl=CAP-00030 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=27 type=ADT^A01^ADT_A01 ctrl=CAP-00027 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=25 type=ADT^A01^ADT_A01 ctrl=CAP-00026 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=24 type=ADT^A01^ADT_A01 ctrl=CAP-00025 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=29 type=ADT^A01^ADT_A01 ctrl=CAP-00029 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=38 type=ADT^A01^ADT_A01 ctrl=CAP-00038 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=34 type=ADT^A01^ADT_A01 ctrl=CAP-00034 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=36 type=ADT^A01^ADT_A01 ctrl=CAP-00036 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=43 type=ADT^A01^ADT_A01 ctrl=CAP-00043 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=28 type=ADT^A01^ADT_A01 ctrl=CAP-00028 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=44 type=ADT^A01^ADT_A01 ctrl=CAP-00045 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=40 type=ADT^A01^ADT_A01 ctrl=CAP-00040 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=46 type=ADT^A01^ADT_A01 ctrl=CAP-00047 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=42 type=ADT^A01^ADT_A01 ctrl=CAP-00042 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=48 type=ADT^A01^ADT_A01 ctrl=CAP-00050 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=50 type=ADT^A01^ADT_A01 ctrl=CAP-00051 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=52 type=ADT^A01^ADT_A01 ctrl=CAP-00052 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=41 type=ADT^A01^ADT_A01 ctrl=CAP-00041 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=53 type=ADT^A01^ADT_A01 ctrl=CAP-00053 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=39 type=ADT^A01^ADT_A01 ctrl=CAP-00039 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=37 type=ADT^A01^ADT_A01 ctrl=CAP-00037 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=47 type=ADT^A01^ADT_A01 ctrl=CAP-00049 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=54 type=ADT^A01^ADT_A01 ctrl=CAP-00054 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=55 type=ADT^A01^ADT_A01 ctrl=CAP-00055 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=56 type=ADT^A01^ADT_A01 ctrl=CAP-00058 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=58 type=ADT^A01^ADT_A01 ctrl=CAP-00060 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=57 type=ADT^A01^ADT_A01 ctrl=CAP-00056 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=60 type=ADT^A01^ADT_A01 ctrl=CAP-00062 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=59 type=ADT^A01^ADT_A01 ctrl=CAP-00057 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=51 type=ADT^A01^ADT_A01 ctrl=CAP-00048 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=49 type=ADT^A01^ADT_A01 ctrl=CAP-00046 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=62 type=ADT^A01^ADT_A01 ctrl=CAP-00063 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=61 type=ADT^A01^ADT_A01 ctrl=CAP-00061 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=63 type=ADT^A01^ADT_A01 ctrl=CAP-00059 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=64 type=ADT^A01^ADT_A01 ctrl=CAP-00066 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=45 type=ADT^A01^ADT_A01 ctrl=CAP-00044 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=68 type=ADT^A01^ADT_A01 ctrl=CAP-00070 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=69 type=ADT^A01^ADT_A01 ctrl=CAP-00068 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=66 type=ADT^A01^ADT_A01 ctrl=CAP-00069 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=67 type=ADT^A01^ADT_A01 ctrl=CAP-00064 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=71 type=ADT^A01^ADT_A01 ctrl=CAP-00067 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=65 type=ADT^A01^ADT_A01 ctrl=CAP-00065 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=70 type=ADT^A01^ADT_A01 ctrl=CAP-00071 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=73 type=ADT^A01^ADT_A01 ctrl=CAP-00072 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=74 type=ADT^A01^ADT_A01 ctrl=CAP-00073 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=75 type=ADT^A01^ADT_A01 ctrl=CAP-00074 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=76 type=ADT^A01^ADT_A01 ctrl=CAP-00076 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=77 type=ADT^A01^ADT_A01 ctrl=CAP-00077 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=78 type=ADT^A01^ADT_A01 ctrl=CAP-00079 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=82 type=ADT^A01^ADT_A01 ctrl=CAP-00083 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=72 type=ADT^A01^ADT_A01 ctrl=CAP-00075 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=80 type=ADT^A01^ADT_A01 ctrl=CAP-00080 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=81 type=ADT^A01^ADT_A01 ctrl=CAP-00082 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=79 type=ADT^A01^ADT_A01 ctrl=CAP-00078 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=86 type=ADT^A01^ADT_A01 ctrl=CAP-00088 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=87 type=ADT^A01^ADT_A01 ctrl=CAP-00089 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=84 type=ADT^A01^ADT_A01 ctrl=CAP-00084 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=88 type=ADT^A01^ADT_A01 ctrl=CAP-00086 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=89 type=ADT^A01^ADT_A01 ctrl=CAP-00087 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=85 type=ADT^A01^ADT_A01 ctrl=CAP-00085 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=83 type=ADT^A01^ADT_A01 ctrl=CAP-00081 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=92 type=ADT^A01^ADT_A01 ctrl=CAP-00092 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=95 type=ADT^A01^ADT_A01 ctrl=CAP-00090 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=93 type=ADT^A01^ADT_A01 ctrl=CAP-00094 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=96 type=ADT^A01^ADT_A01 ctrl=CAP-00096 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=97 type=ADT^A01^ADT_A01 ctrl=CAP-00097 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=90 type=ADT^A01^ADT_A01 ctrl=CAP-00091 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=91 type=ADT^A01^ADT_A01 ctrl=CAP-00093 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=99 type=ADT^A01^ADT_A01 ctrl=CAP-00098 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=100 type=ADT^A01^ADT_A01 ctrl=CAP-00100 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=98 type=ADT^A01^ADT_A01 ctrl=CAP-00099 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=101 type=ADT^A01^ADT_A01 ctrl=CAP-00101 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=94 type=ADT^A01^ADT_A01 ctrl=CAP-00095 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=104 type=ADT^A01^ADT_A01 ctrl=CAP-00105 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=102 type=ADT^A01^ADT_A01 ctrl=CAP-00103 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=107 type=ADT^A01^ADT_A01 ctrl=CAP-00107 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=105 type=ADT^A01^ADT_A01 ctrl=CAP-00106 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=108 type=ADT^A01^ADT_A01 ctrl=CAP-00110 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=103 type=ADT^A01^ADT_A01 ctrl=CAP-00104 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=109 type=ADT^A01^ADT_A01 ctrl=CAP-00109 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=110 type=ADT^A01^ADT_A01 ctrl=CAP-00112 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=111 type=ADT^A01^ADT_A01 ctrl=CAP-00111 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=106 type=ADT^A01^ADT_A01 ctrl=CAP-00108 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=114 type=ADT^A01^ADT_A01 ctrl=CAP-00115 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=112 type=ADT^A01^ADT_A01 ctrl=CAP-00113 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=113 type=ADT^A01^ADT_A01 ctrl=CAP-00114 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=116 type=ADT^A01^ADT_A01 ctrl=CAP-00117 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=115 type=ADT^A01^ADT_A01 ctrl=CAP-00119 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=119 type=ADT^A01^ADT_A01 ctrl=CAP-00122 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=118 type=ADT^A01^ADT_A01 ctrl=CAP-00118 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=121 type=ADT^A01^ADT_A01 ctrl=CAP-00120 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=120 type=ADT^A01^ADT_A01 ctrl=CAP-00121 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=123 type=ADT^A01^ADT_A01 ctrl=CAP-00128 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=124 type=ADT^A01^ADT_A01 ctrl=CAP-00124 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=128 type=ADT^A01^ADT_A01 ctrl=CAP-00126 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=117 type=ADT^A01^ADT_A01 ctrl=CAP-00116 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=127 type=ADT^A01^ADT_A01 ctrl=CAP-00125 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=125 type=ADT^A01^ADT_A01 ctrl=CAP-00123 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=126 type=ADT^A01^ADT_A01 ctrl=CAP-00127 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=129 type=ADT^A01^ADT_A01 ctrl=CAP-00129 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=130 type=ADT^A01^ADT_A01 ctrl=CAP-00130 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=132 type=ADT^A01^ADT_A01 ctrl=CAP-00131 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=122 type=ADT^A01^ADT_A01 ctrl=CAP-00102 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=133 type=ADT^A01^ADT_A01 ctrl=CAP-00132 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=135 type=ADT^A01^ADT_A01 ctrl=CAP-00135 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=134 type=ADT^A01^ADT_A01 ctrl=CAP-00134 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=136 type=ADT^A01^ADT_A01 ctrl=CAP-00136 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=139 type=ADT^A01^ADT_A01 ctrl=CAP-00139 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=138 type=ADT^A01^ADT_A01 ctrl=CAP-00137 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=137 type=ADT^A01^ADT_A01 ctrl=CAP-00138 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=141 type=ADT^A01^ADT_A01 ctrl=CAP-00141 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=142 type=ADT^A01^ADT_A01 ctrl=CAP-00144 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=145 type=ADT^A01^ADT_A01 ctrl=CAP-00147 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=146 type=ADT^A01^ADT_A01 ctrl=CAP-00149 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=149 type=ADT^A01^ADT_A01 ctrl=CAP-00150 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=147 type=ADT^A01^ADT_A01 ctrl=CAP-00146 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=140 type=ADT^A01^ADT_A01 ctrl=CAP-00140 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=151 type=ADT^A01^ADT_A01 ctrl=CAP-00151 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=148 type=ADT^A01^ADT_A01 ctrl=CAP-00145 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=131 type=ADT^A01^ADT_A01 ctrl=CAP-00133 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=143 type=ADT^A01^ADT_A01 ctrl=CAP-00142 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=144 type=ADT^A01^ADT_A01 ctrl=CAP-00143 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=153 type=ADT^A01^ADT_A01 ctrl=CAP-00153 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=152 type=ADT^A01^ADT_A01 ctrl=CAP-00152 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=150 type=ADT^A01^ADT_A01 ctrl=CAP-00148 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=155 type=ADT^A01^ADT_A01 ctrl=CAP-00156 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=156 type=ADT^A01^ADT_A01 ctrl=CAP-00157 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=154 type=ADT^A01^ADT_A01 ctrl=CAP-00154 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=159 type=ADT^A01^ADT_A01 ctrl=CAP-00160 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=158 type=ADT^A01^ADT_A01 ctrl=CAP-00161 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=157 type=ADT^A01^ADT_A01 ctrl=CAP-00159 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=162 type=ADT^A01^ADT_A01 ctrl=CAP-00164 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=161 type=ADT^A01^ADT_A01 ctrl=CAP-00165 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=160 type=ADT^A01^ADT_A01 ctrl=CAP-00162 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=163 type=ADT^A01^ADT_A01 ctrl=CAP-00163 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=164 type=ADT^A01^ADT_A01 ctrl=CAP-00167 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=166 type=ADT^A01^ADT_A01 ctrl=CAP-00168 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=170 type=ADT^A01^ADT_A01 ctrl=CAP-00172 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=168 type=ADT^A01^ADT_A01 ctrl=CAP-00158 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=165 type=ADT^A01^ADT_A01 ctrl=CAP-00166 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=172 type=ADT^A01^ADT_A01 ctrl=CAP-00171 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=173 type=ADT^A01^ADT_A01 ctrl=CAP-00173 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=174 type=ADT^A01^ADT_A01 ctrl=CAP-00174 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=176 type=ADT^A01^ADT_A01 ctrl=CAP-00175 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=177 type=ADT^A01^ADT_A01 ctrl=CAP-00177 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=171 type=ADT^A01^ADT_A01 ctrl=CAP-00155 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=169 type=ADT^A01^ADT_A01 ctrl=CAP-00170 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=167 type=ADT^A01^ADT_A01 ctrl=CAP-00169 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=179 type=ADT^A01^ADT_A01 ctrl=CAP-00179 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=178 type=ADT^A01^ADT_A01 ctrl=CAP-00178 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=180 type=ADT^A01^ADT_A01 ctrl=CAP-00180 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=175 type=ADT^A01^ADT_A01 ctrl=CAP-00176 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=182 type=ADT^A01^ADT_A01 ctrl=CAP-00182 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=183 type=ADT^A01^ADT_A01 ctrl=CAP-00183 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=184 type=ADT^A01^ADT_A01 ctrl=CAP-00184 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=185 type=ADT^A01^ADT_A01 ctrl=CAP-00185 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=186 type=ADT^A01^ADT_A01 ctrl=CAP-00186 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=189 type=ADT^A01^ADT_A01 ctrl=CAP-00189 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=188 type=ADT^A01^ADT_A01 ctrl=CAP-00188 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=187 type=ADT^A01^ADT_A01 ctrl=CAP-00187 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=190 type=ADT^A01^ADT_A01 ctrl=CAP-00190 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=191 type=ADT^A01^ADT_A01 ctrl=CAP-00191 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=194 type=ADT^A01^ADT_A01 ctrl=CAP-00195 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=192 type=ADT^A01^ADT_A01 ctrl=CAP-00193 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=193 type=ADT^A01^ADT_A01 ctrl=CAP-00192 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=195 type=ADT^A01^ADT_A01 ctrl=CAP-00194 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=198 type=ADT^A01^ADT_A01 ctrl=CAP-00200 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=200 type=ADT^A01^ADT_A01 ctrl=CAP-00201 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=197 type=ADT^A01^ADT_A01 ctrl=CAP-00198 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=199 type=ADT^A01^ADT_A01 ctrl=CAP-00199 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=201 type=ADT^A01^ADT_A01 ctrl=CAP-00202 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=196 type=ADT^A01^ADT_A01 ctrl=CAP-00197 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=204 type=ADT^A01^ADT_A01 ctrl=CAP-00204 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=203 type=ADT^A01^ADT_A01 ctrl=CAP-00203 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=205 type=ADT^A01^ADT_A01 ctrl=CAP-00205 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=206 type=ADT^A01^ADT_A01 ctrl=CAP-00206 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=208 type=ADT^A01^ADT_A01 ctrl=CAP-00210 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=207 type=ADT^A01^ADT_A01 ctrl=CAP-00207 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=202 type=ADT^A01^ADT_A01 ctrl=CAP-00196 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=209 type=ADT^A01^ADT_A01 ctrl=CAP-00208 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=210 type=ADT^A01^ADT_A01 ctrl=CAP-00209 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=212 type=ADT^A01^ADT_A01 ctrl=CAP-00212 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=211 type=ADT^A01^ADT_A01 ctrl=CAP-00211 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=215 type=ADT^A01^ADT_A01 ctrl=CAP-00216 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=214 type=ADT^A01^ADT_A01 ctrl=CAP-00215 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=213 type=ADT^A01^ADT_A01 ctrl=CAP-00213 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=217 type=ADT^A01^ADT_A01 ctrl=CAP-00217 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=216 type=ADT^A01^ADT_A01 ctrl=CAP-00218 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=221 type=ADT^A01^ADT_A01 ctrl=CAP-00219 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=220 type=ADT^A01^ADT_A01 ctrl=CAP-00220 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=222 type=ADT^A01^ADT_A01 ctrl=CAP-00222 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=223 type=ADT^A01^ADT_A01 ctrl=CAP-00224 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=219 type=ADT^A01^ADT_A01 ctrl=CAP-00214 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=224 type=ADT^A01^ADT_A01 ctrl=CAP-00226 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=225 type=ADT^A01^ADT_A01 ctrl=CAP-00223 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=226 type=ADT^A01^ADT_A01 ctrl=CAP-00225 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=228 type=ADT^A01^ADT_A01 ctrl=CAP-00228 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=227 type=ADT^A01^ADT_A01 ctrl=CAP-00227 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=229 type=ADT^A01^ADT_A01 ctrl=CAP-00229 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=230 type=ADT^A01^ADT_A01 ctrl=CAP-00230 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=231 type=ADT^A01^ADT_A01 ctrl=CAP-00231 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=234 type=ADT^A01^ADT_A01 ctrl=CAP-00235 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=233 type=ADT^A01^ADT_A01 ctrl=CAP-00232 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=235 type=ADT^A01^ADT_A01 ctrl=CAP-00236 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=232 type=ADT^A01^ADT_A01 ctrl=CAP-00234 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=236 type=ADT^A01^ADT_A01 ctrl=CAP-00237 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=240 type=ADT^A01^ADT_A01 ctrl=CAP-00239 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=181 type=ADT^A01^ADT_A01 ctrl=CAP-00181 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=237 type=ADT^A01^ADT_A01 ctrl=CAP-00233 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=238 type=ADT^A01^ADT_A01 ctrl=CAP-00240 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=242 type=ADT^A01^ADT_A01 ctrl=CAP-00242 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=243 type=ADT^A01^ADT_A01 ctrl=CAP-00244 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=244 type=ADT^A01^ADT_A01 ctrl=CAP-00245 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=248 type=ADT^A01^ADT_A01 ctrl=CAP-00249 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=246 type=ADT^A01^ADT_A01 ctrl=CAP-00247 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=218 type=ADT^A01^ADT_A01 ctrl=CAP-00221 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=239 type=ADT^A01^ADT_A01 ctrl=CAP-00238 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=247 type=ADT^A01^ADT_A01 ctrl=CAP-00248 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=251 type=ADT^A01^ADT_A01 ctrl=CAP-00251 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=250 type=ADT^A01^ADT_A01 ctrl=CAP-00250 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=252 type=ADT^A01^ADT_A01 ctrl=CAP-00252 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=254 type=ADT^A01^ADT_A01 ctrl=CAP-00254 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=245 type=ADT^A01^ADT_A01 ctrl=CAP-00243 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=253 type=ADT^A01^ADT_A01 ctrl=CAP-00253 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=255 type=ADT^A01^ADT_A01 ctrl=CAP-00256 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=256 type=ADT^A01^ADT_A01 ctrl=CAP-00257 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=257 type=ADT^A01^ADT_A01 ctrl=CAP-00258 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=258 type=ADT^A01^ADT_A01 ctrl=CAP-00259 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=259 type=ADT^A01^ADT_A01 ctrl=CAP-00255 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=260 type=ADT^A01^ADT_A01 ctrl=CAP-00260 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=261 type=ADT^A01^ADT_A01 ctrl=CAP-00261 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=262 type=ADT^A01^ADT_A01 ctrl=CAP-00263 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=264 type=ADT^A01^ADT_A01 ctrl=CAP-00264 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=265 type=ADT^A01^ADT_A01 ctrl=CAP-00265 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=266 type=ADT^A01^ADT_A01 ctrl=CAP-00267 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=249 type=ADT^A01^ADT_A01 ctrl=CAP-00246 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=272 type=ADT^A01^ADT_A01 ctrl=CAP-00272 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=268 type=ADT^A01^ADT_A01 ctrl=CAP-00266 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=273 type=ADT^A01^ADT_A01 ctrl=CAP-00271 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=271 type=ADT^A01^ADT_A01 ctrl=CAP-00270 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=274 type=ADT^A01^ADT_A01 ctrl=CAP-00275 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=263 type=ADT^A01^ADT_A01 ctrl=CAP-00262 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=269 type=ADT^A01^ADT_A01 ctrl=CAP-00269 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=270 type=ADT^A01^ADT_A01 ctrl=CAP-00273 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=241 type=ADT^A01^ADT_A01 ctrl=CAP-00241 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=267 type=ADT^A01^ADT_A01 ctrl=CAP-00268 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=277 type=ADT^A01^ADT_A01 ctrl=CAP-00276 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=279 type=ADT^A01^ADT_A01 ctrl=CAP-00280 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=276 type=ADT^A01^ADT_A01 ctrl=CAP-00274 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=280 type=ADT^A01^ADT_A01 ctrl=CAP-00279 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=281 type=ADT^A01^ADT_A01 ctrl=CAP-00282 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=282 type=ADT^A01^ADT_A01 ctrl=CAP-00283 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=283 type=ADT^A01^ADT_A01 ctrl=CAP-00285 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=284 type=ADT^A01^ADT_A01 ctrl=CAP-00287 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=275 type=ADT^A01^ADT_A01 ctrl=CAP-00277 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=287 type=ADT^A01^ADT_A01 ctrl=CAP-00291 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=285 type=ADT^A01^ADT_A01 ctrl=CAP-00289 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=278 type=ADT^A01^ADT_A01 ctrl=CAP-00278 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=286 type=ADT^A01^ADT_A01 ctrl=CAP-00288 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=288 type=ADT^A01^ADT_A01 ctrl=CAP-00290 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=289 type=ADT^A01^ADT_A01 ctrl=CAP-00292 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=290 type=ADT^A01^ADT_A01 ctrl=CAP-00286 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=292 type=ADT^A01^ADT_A01 ctrl=CAP-00294 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=294 type=ADT^A01^ADT_A01 ctrl=CAP-00297 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=291 type=ADT^A01^ADT_A01 ctrl=CAP-00293 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=293 type=ADT^A01^ADT_A01 ctrl=CAP-00296 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=296 type=ADT^A01^ADT_A01 ctrl=CAP-00298 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=297 type=ADT^A01^ADT_A01 ctrl=CAP-00299 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=295 type=ADT^A01^ADT_A01 ctrl=CAP-00295 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=299 type=ADT^A01^ADT_A01 ctrl=CAP-00303 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=302 type=ADT^A01^ADT_A01 ctrl=CAP-00304 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=298 type=ADT^A01^ADT_A01 ctrl=CAP-00302 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=301 type=ADT^A01^ADT_A01 ctrl=CAP-00301 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=303 type=ADT^A01^ADT_A01 ctrl=CAP-00305 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=305 type=ADT^A01^ADT_A01 ctrl=CAP-00306 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=306 type=ADT^A01^ADT_A01 ctrl=CAP-00284 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=300 type=ADT^A01^ADT_A01 ctrl=CAP-00300 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=307 type=ADT^A01^ADT_A01 ctrl=CAP-00309 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=308 type=ADT^A01^ADT_A01 ctrl=CAP-00308 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=311 type=ADT^A01^ADT_A01 ctrl=CAP-00312 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=310 type=ADT^A01^ADT_A01 ctrl=CAP-00311 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=304 type=ADT^A01^ADT_A01 ctrl=CAP-00307 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=312 type=ADT^A01^ADT_A01 ctrl=CAP-00313 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=313 type=ADT^A01^ADT_A01 ctrl=CAP-00315 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=315 type=ADT^A01^ADT_A01 ctrl=CAP-00318 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=309 type=ADT^A01^ADT_A01 ctrl=CAP-00310 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=316 type=ADT^A01^ADT_A01 ctrl=CAP-00316 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=317 type=ADT^A01^ADT_A01 ctrl=CAP-00317 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=318 type=ADT^A01^ADT_A01 ctrl=CAP-00319 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=321 type=ADT^A01^ADT_A01 ctrl=CAP-00323 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=319 type=ADT^A01^ADT_A01 ctrl=CAP-00320 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=320 type=ADT^A01^ADT_A01 ctrl=CAP-00321 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=322 type=ADT^A01^ADT_A01 ctrl=CAP-00324 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=325 type=ADT^A01^ADT_A01 ctrl=CAP-00328 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=323 type=ADT^A01^ADT_A01 ctrl=CAP-00322 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=327 type=ADT^A01^ADT_A01 ctrl=CAP-00326 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=324 type=ADT^A01^ADT_A01 ctrl=CAP-00325 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=326 type=ADT^A01^ADT_A01 ctrl=CAP-00327 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=329 type=ADT^A01^ADT_A01 ctrl=CAP-00330 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=328 type=ADT^A01^ADT_A01 ctrl=CAP-00329 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=330 type=ADT^A01^ADT_A01 ctrl=CAP-00331 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=332 type=ADT^A01^ADT_A01 ctrl=CAP-00333 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=314 type=ADT^A01^ADT_A01 ctrl=CAP-00281 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=333 type=ADT^A01^ADT_A01 ctrl=CAP-00334 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=337 type=ADT^A01^ADT_A01 ctrl=CAP-00338 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=334 type=ADT^A01^ADT_A01 ctrl=CAP-00335 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=339 type=ADT^A01^ADT_A01 ctrl=CAP-00339 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=340 type=ADT^A01^ADT_A01 ctrl=CAP-00341 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=341 type=ADT^A01^ADT_A01 ctrl=CAP-00340 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=338 type=ADT^A01^ADT_A01 ctrl=CAP-00314 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=342 type=ADT^A01^ADT_A01 ctrl=CAP-00343 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=343 type=ADT^A01^ADT_A01 ctrl=CAP-00342 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=346 type=ADT^A01^ADT_A01 ctrl=CAP-00347 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=331 type=ADT^A01^ADT_A01 ctrl=CAP-00332 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=344 type=ADT^A01^ADT_A01 ctrl=CAP-00344 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=345 type=ADT^A01^ADT_A01 ctrl=CAP-00346 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=336 type=ADT^A01^ADT_A01 ctrl=CAP-00336 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=348 type=ADT^A01^ADT_A01 ctrl=CAP-00349 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=335 type=ADT^A01^ADT_A01 ctrl=CAP-00337 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=350 type=ADT^A01^ADT_A01 ctrl=CAP-00352 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=351 type=ADT^A01^ADT_A01 ctrl=CAP-00350 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=349 type=ADT^A01^ADT_A01 ctrl=CAP-00348 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=353 type=ADT^A01^ADT_A01 ctrl=CAP-00354 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=352 type=ADT^A01^ADT_A01 ctrl=CAP-00353 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=347 type=ADT^A01^ADT_A01 ctrl=CAP-00345 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=355 type=ADT^A01^ADT_A01 ctrl=CAP-00356 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=354 type=ADT^A01^ADT_A01 ctrl=CAP-00355 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=356 type=ADT^A01^ADT_A01 ctrl=CAP-00357 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=360 type=ADT^A01^ADT_A01 ctrl=CAP-00361 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=359 type=ADT^A01^ADT_A01 ctrl=CAP-00359 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=361 type=ADT^A01^ADT_A01 ctrl=CAP-00362 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=362 type=ADT^A01^ADT_A01 ctrl=CAP-00364 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=364 type=ADT^A01^ADT_A01 ctrl=CAP-00365 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=365 type=ADT^A01^ADT_A01 ctrl=CAP-00366 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=357 type=ADT^A01^ADT_A01 ctrl=CAP-00360 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=366 type=ADT^A01^ADT_A01 ctrl=CAP-00368 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=369 type=ADT^A01^ADT_A01 ctrl=CAP-00373 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=358 type=ADT^A01^ADT_A01 ctrl=CAP-00358 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=370 type=ADT^A01^ADT_A01 ctrl=CAP-00372 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=372 type=ADT^A01^ADT_A01 ctrl=CAP-00374 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=363 type=ADT^A01^ADT_A01 ctrl=CAP-00367 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=371 type=ADT^A01^ADT_A01 ctrl=CAP-00371 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=368 type=ADT^A01^ADT_A01 ctrl=CAP-00369 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=367 type=ADT^A01^ADT_A01 ctrl=CAP-00370 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=374 type=ADT^A01^ADT_A01 ctrl=CAP-00363 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=376 type=ADT^A01^ADT_A01 ctrl=CAP-00377 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=377 type=ADT^A01^ADT_A01 ctrl=CAP-00378 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=379 type=ADT^A01^ADT_A01 ctrl=CAP-00380 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=381 type=ADT^A01^ADT_A01 ctrl=CAP-00381 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=380 type=ADT^A01^ADT_A01 ctrl=CAP-00382 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=382 type=ADT^A01^ADT_A01 ctrl=CAP-00376 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=385 type=ADT^A01^ADT_A01 ctrl=CAP-00386 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=383 type=ADT^A01^ADT_A01 ctrl=CAP-00384 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=375 type=ADT^A01^ADT_A01 ctrl=CAP-00351 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=373 type=ADT^A01^ADT_A01 ctrl=CAP-00375 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=384 type=ADT^A01^ADT_A01 ctrl=CAP-00383 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=388 type=ADT^A01^ADT_A01 ctrl=CAP-00387 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=386 type=ADT^A01^ADT_A01 ctrl=CAP-00385 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=387 type=ADT^A01^ADT_A01 ctrl=CAP-00388 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=378 type=ADT^A01^ADT_A01 ctrl=CAP-00379 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=389 type=ADT^A01^ADT_A01 ctrl=CAP-00389 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=392 type=ADT^A01^ADT_A01 ctrl=CAP-00395 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=391 type=ADT^A01^ADT_A01 ctrl=CAP-00391 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=393 type=ADT^A01^ADT_A01 ctrl=CAP-00394 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=394 type=ADT^A01^ADT_A01 ctrl=CAP-00397 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=398 type=ADT^A01^ADT_A01 ctrl=CAP-00399 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=395 type=ADT^A01^ADT_A01 ctrl=CAP-00396 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=397 type=ADT^A01^ADT_A01 ctrl=CAP-00398 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=396 type=ADT^A01^ADT_A01 ctrl=CAP-00393 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=399 type=ADT^A01^ADT_A01 ctrl=CAP-00400 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=400 type=ADT^A01^ADT_A01 ctrl=CAP-00401 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=401 type=ADT^A01^ADT_A01 ctrl=CAP-00404 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=406 type=ADT^A01^ADT_A01 ctrl=CAP-00408 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=404 type=ADT^A01^ADT_A01 ctrl=CAP-00403 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=409 type=ADT^A01^ADT_A01 ctrl=CAP-00410 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=405 type=ADT^A01^ADT_A01 ctrl=CAP-00405 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=402 type=ADT^A01^ADT_A01 ctrl=CAP-00392 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=408 type=ADT^A01^ADT_A01 ctrl=CAP-00409 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=390 type=ADT^A01^ADT_A01 ctrl=CAP-00390 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=411 type=ADT^A01^ADT_A01 ctrl=CAP-00411 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=403 type=ADT^A01^ADT_A01 ctrl=CAP-00402 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=407 type=ADT^A01^ADT_A01 ctrl=CAP-00406 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=412 type=ADT^A01^ADT_A01 ctrl=CAP-00413 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=414 type=ADT^A01^ADT_A01 ctrl=CAP-00417 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=413 type=ADT^A01^ADT_A01 ctrl=CAP-00412 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=415 type=ADT^A01^ADT_A01 ctrl=CAP-00418 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=410 type=ADT^A01^ADT_A01 ctrl=CAP-00407 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=416 type=ADT^A01^ADT_A01 ctrl=CAP-00416 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=420 type=ADT^A01^ADT_A01 ctrl=CAP-00422 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=417 type=ADT^A01^ADT_A01 ctrl=CAP-00414 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=418 type=ADT^A01^ADT_A01 ctrl=CAP-00420 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=421 type=ADT^A01^ADT_A01 ctrl=CAP-00421 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=419 type=ADT^A01^ADT_A01 ctrl=CAP-00419 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=424 type=ADT^A01^ADT_A01 ctrl=CAP-00415 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=423 type=ADT^A01^ADT_A01 ctrl=CAP-00425 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=426 type=ADT^A01^ADT_A01 ctrl=CAP-00428 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=425 type=ADT^A01^ADT_A01 ctrl=CAP-00429 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=428 type=ADT^A01^ADT_A01 ctrl=CAP-00430 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=427 type=ADT^A01^ADT_A01 ctrl=CAP-00426 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=429 type=ADT^A01^ADT_A01 ctrl=CAP-00432 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=430 type=ADT^A01^ADT_A01 ctrl=CAP-00431 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=434 type=ADT^A01^ADT_A01 ctrl=CAP-00437 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=431 type=ADT^A01^ADT_A01 ctrl=CAP-00433 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=433 type=ADT^A01^ADT_A01 ctrl=CAP-00435 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=432 type=ADT^A01^ADT_A01 ctrl=CAP-00434 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=435 type=ADT^A01^ADT_A01 ctrl=CAP-00436 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=436 type=ADT^A01^ADT_A01 ctrl=CAP-00440 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=437 type=ADT^A01^ADT_A01 ctrl=CAP-00438 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=440 type=ADT^A01^ADT_A01 ctrl=CAP-00441 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=442 type=ADT^A01^ADT_A01 ctrl=CAP-00445 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=438 type=ADT^A01^ADT_A01 ctrl=CAP-00439 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=439 type=ADT^A01^ADT_A01 ctrl=CAP-00442 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=441 type=ADT^A01^ADT_A01 ctrl=CAP-00444 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=443 type=ADT^A01^ADT_A01 ctrl=CAP-00443 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=445 type=ADT^A01^ADT_A01 ctrl=CAP-00447 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=448 type=ADT^A01^ADT_A01 ctrl=CAP-00449 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=449 type=ADT^A01^ADT_A01 ctrl=CAP-00450 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=444 type=ADT^A01^ADT_A01 ctrl=CAP-00424 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=24 type=ADT^A01^ADT_A01 ctrl=CAP-00025 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=11 type=ADT^A01^ADT_A01 ctrl=CAP-00011 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=447 type=ADT^A01^ADT_A01 ctrl=CAP-00446 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=446 type=ADT^A01^ADT_A01 ctrl=CAP-00448 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=32 type=ADT^A01^ADT_A01 ctrl=CAP-00032 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=39 type=ADT^A01^ADT_A01 ctrl=CAP-00039 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=53 type=ADT^A01^ADT_A01 ctrl=CAP-00053 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=49 type=ADT^A01^ADT_A01 ctrl=CAP-00046 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=6 type=ADT^A01^ADT_A01 ctrl=CAP-00004 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=18 type=ADT^A01^ADT_A01 ctrl=CAP-00018 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=71 type=ADT^A01^ADT_A01 ctrl=CAP-00067 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=75 type=ADT^A01^ADT_A01 ctrl=CAP-00074 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=83 type=ADT^A01^ADT_A01 ctrl=CAP-00081 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=58 type=ADT^A01^ADT_A01 ctrl=CAP-00060 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=422 type=ADT^A01^ADT_A01 ctrl=CAP-00423 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=450 type=ADT^A01^ADT_A01 ctrl=CAP-00427 proc=P batch=ARCHIVE_IN-20261020 state=PENDING_CONFIRM ack=AA degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=125 type=ADT^A01^ADT_A01 ctrl=CAP-00123 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=117 type=ADT^A01^ADT_A01 ctrl=CAP-00116 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=109 type=ADT^A01^ADT_A01 ctrl=CAP-00109 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=122 type=ADT^A01^ADT_A01 ctrl=CAP-00102 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=94 type=ADT^A01^ADT_A01 ctrl=CAP-00095 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=86 type=ADT^A01^ADT_A01 ctrl=CAP-00088 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=161 type=ADT^A01^ADT_A01 ctrl=CAP-00165 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=168 type=ADT^A01^ADT_A01 ctrl=CAP-00158 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=151 type=ADT^A01^ADT_A01 ctrl=CAP-00151 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=142 type=ADT^A01^ADT_A01 ctrl=CAP-00144 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=138 type=ADT^A01^ADT_A01 ctrl=CAP-00137 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=130 type=ADT^A01^ADT_A01 ctrl=CAP-00130 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=207 type=ADT^A01^ADT_A01 ctrl=CAP-00207 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=198 type=ADT^A01^ADT_A01 ctrl=CAP-00200 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=192 type=ADT^A01^ADT_A01 ctrl=CAP-00193 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=186 type=ADT^A01^ADT_A01 ctrl=CAP-00186 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=170 type=ADT^A01^ADT_A01 ctrl=CAP-00172 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService duplicateOutcome
+信息: 幂等命中，不重复入账: ledgerId=179 type=ADT^A01^ADT_A01 ctrl=CAP-00179 proc=P state=PENDING_CONFIRM
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=453 type=ADT^A01^ADT_A01 ctrl=CAP-00454 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=454 type=ADT^A01^ADT_A01 ctrl=CAP-00456 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=452 type=ADT^A01^ADT_A01 ctrl=CAP-00457 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=451 type=ADT^A01^ADT_A01 ctrl=CAP-00455 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=455 type=ADT^A01^ADT_A01 ctrl=CAP-00453 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=456 type=ADT^A01^ADT_A01 ctrl=CAP-00459 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=458 type=ADT^A01^ADT_A01 ctrl=CAP-00461 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=457 type=ADT^A01^ADT_A01 ctrl=CAP-00451 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=461 type=ADT^A01^ADT_A01 ctrl=(空) proc=PMF-002 batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=460 type=ADT^A01^ADT_A01 ctrl=(空) proc=PMF-001 batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=464 type=ADT^A01^ADT_A01 ctrl=(空) proc=PMF-004 batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=459 type=ADT^A01^ADT_A01 ctrl=CAP-00462 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=465 type=ADT^A01^ADT_A01 ctrl=CAP-00452 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=462 type=ADT^A01^ADT_A01 ctrl=(空) proc=PMF-003 batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=463 type=ADT^A01^ADT_A01 ctrl=(空) proc=PMF-005 batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=466 type=ADT^A01^ADT_A01 ctrl=CAP-00458 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=467 type=ADT^A01^ADT_A01 ctrl=(空) proc=PMF-006 batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=469 type=ADT^A01^ADT_A01 ctrl=(空) proc=PMF-007 batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=468 type=ADT^A01^ADT_A01 ctrl=(空) proc=PMF-008 batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+10月 21, 2026 11:23:58 上午 cn.hospital.region.archive.ledger.ArchiveIngestService ingest
+信息: 首次入账: ledgerId=470 type=ADT^A01^ADT_A01 ctrl=CAP-00460 proc=P batch=ARCHIVE_IN-20261020 state=REJECTED ack=AE degraded=false
+批次 容量基准-500条/10工作线程：帧数 500，总耗时 2295ms（217.9 帧/秒），单条处理耗时 P50=3.56ms P95=13.45ms P99=33.09ms MAX=40.15ms（均值 5.33ms，仅供对照），最大积压 500 帧，被拒 0 帧，台账连接峰值 10 / 共开 1910 条
+
+batch.label=容量基准-500条/10工作线程
+batch.frames=500
+batch.elapsed_ms=2295
+batch.throughput_per_sec=217.86
+latency.samples=500
+latency.p50_ms=3.558
+latency.p95_ms=13.454
+latency.p99_ms=33.088
+latency.max_ms=40.155
+latency.mean_ms=5.330
+latency.p99_threshold_ms=200
+pipeline.max_queue_depth=500
+pipeline.rejected_frames=0
+db.peak_connections=10
+db.connections_opened=1910
+slowest.1=controlId=CAP-00002 40.155ms
+slowest.2=controlId=CAP-00010 37.051ms
+slowest.3=controlId=CAP-00006 34.990ms
+slowest.4=controlId=CAP-00009 34.596ms
+slowest.5=controlId=CAP-00004 33.909ms
+
+
+服务端收到 500 帧 / 回应用级回执 500 帧 / 客户端读到回执 500 帧 / 收帧与回执最大积压 500 帧 / 收齐回执墙钟 2291ms / 处理链异常 0 帧
+台账：行数 470，审计行 470，批次 1 个，状态分布 {REJECTED=20, PENDING_CONFIRM=450}
+
+语料构成（500 帧，合成数据，非真实居民档案）：UTF8_VALID 330 / GB18030_VALID 120 / DUPLICATE 30 / MISSING_PID3 12 / MISSING_MSH10 8
+
+P99 阈值 200ms → 通过（实测 33.09ms）

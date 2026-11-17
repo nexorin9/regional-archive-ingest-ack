@@ -1,0 +1,43 @@
+{
+  "_extracted_from": "java -jar target/regional-archive-ingest-ack.jar --api-smoke → /batches/{batchId}/reconcile（自检模式回环对端只回 1 条 AA）",
+  "_scenario": "次日区域平台追问「我方认了 ARCHIVE-0001 但没认 ARCHIVE-0002」时的差集结果",
+  "_file_role": "次日对账差集：matched / missing / 无法比对三段—— AR 类与空控制号类不入重投清单；missing 是次日重投目标",
+  "batchId": "ARCHIVE-20261020-A",
+  "expectedCount": 2,
+  "declaredAckCount": -1,
+  "remoteAckCount": 1,
+  "matchedCount": 1,
+  "missingCount": 1,
+  "complete": false,
+  "countMismatch": false,
+  "matched": [
+    {
+      "ledgerId": 1,
+      "controlId": "ARCHIVE-0001",
+      "state": "PENDING_CONFIRM",
+      "remoteAckCode": "AA"
+    }
+  ],
+  "missing": [
+    {
+      "ledgerId": 2,
+      "controlId": "ARCHIVE-0002",
+      "state": "PENDING_CONFIRM",
+      "normalizedControlId": "ARCHIVE-2",
+      "reason": "对端回执列表里没有这一条（已按控制号归一比对）"
+    }
+  ],
+  "unexpectedRemoteControlIds": [],
+  "ambiguousControlIds": [],
+  "duplicatedRemoteControlIds": [],
+  "note": "本接口只出清单，不入重投队列；入队由重投调度按退避策略执行；对不上 + 缺失 + 无法比对 = 台账本批总条数",
+  "uncomparableControlIds": [
+    {
+      "ledgerId": 3,
+      "state": "REJECTED",
+      "rejectionCode": "missing-required-field",
+      "reason": "控制号为空，无法与对端回执按控制号比对（本端已按拒收处理，不会因缺回执而重投）"
+    }
+  ],
+  "uncomparableCount": 1
+}

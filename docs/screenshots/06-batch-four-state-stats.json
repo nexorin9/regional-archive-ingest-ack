@@ -1,0 +1,30 @@
+{
+  "_extracted_from": "java -jar target/regional-archive-ingest-ack.jar --api-smoke（自检模式内嵌台账 + 回环对端；真实 HTTP/1.1）",
+  "_step": "7. GET /batches/{batchId}/stats",
+  "_scale": "批次 ARCHIVE-20261020-A 共 3 条（自检跑批规模，比 spec 设计的 5/2/1 略小；自定义 verify_app_smoke.sh 走小批量是因为 API 自检端到端 8 步比单纯灌大数量更直观）",
+  "_flow_sequence": "①入账 3 条 → ② /messages 待确认=2 → ③ confirm 1 条（ledgerId=1 落 LANDED，写院内主索引 PAT-0001 / MRN-884512）→ ④重复 confirm 拒绝 409 → ⑤revert 退回 PENDING_CONFIRM",
+  "_file_role": "批次回执清单：四态分布与拒收原因汇总（无患者姓名 / 证件号明文，导出前默认脱敏）",
+  "batchId": "ARCHIVE-20261020-A",
+  "total": 3,
+  "landed": 0,
+  "pendingConfirm": 2,
+  "received": 0,
+  "rejected": 1,
+  "lowConfidencePending": 0,
+  "counts": {
+    "RECEIVED": 0,
+    "PENDING_CONFIRM": 2,
+    "LANDED": 0,
+    "REJECTED": 1
+  },
+  "retryStates": {
+    "PENDING_RETRY": 0,
+    "RETRYING": 0,
+    "RETRY_CONFIRMED": 0,
+    "RETRY_PERMANENT_FAILED": 0
+  },
+  "rejectionReasons": {
+    "missing-required-field": 1
+  },
+  "headline": "批次 ARCHIVE-20261020-A 共 3 条：已落地 0 / 待确认 2 / 拒收 1"
+}
